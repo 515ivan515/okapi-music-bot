@@ -5,6 +5,12 @@ import shutil
 import logging
 import configparser
 
+def decode(inp):
+    return "".join(map(lambda x: chr(ord(x) - 7), inp))
+
+def encode(inp):
+    return "".join(map(lambda x: chr(ord(x) + 7), inp))
+
 from .exceptions import HelpfulError
 
 log = logging.getLogger(__name__)
@@ -33,7 +39,7 @@ class Config:
         self._confpreface = "An error has occured reading the config:\n"
         self._confpreface2 = "An error has occured validating the config:\n"
 
-        self._login_token = config.get('Credentials', 'Token', fallback=ConfigDefaults.token)
+        self._login_token = decode(config.get('Credentials', 'Token', fallback=ConfigDefaults.token))
 
         self.auth = ()
 
