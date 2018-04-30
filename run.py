@@ -195,7 +195,7 @@ def sanity_checks(optional=True):
     req_ensure_encoding()
 
     # Make sure we're in a writeable env
-    #req_ensure_env()
+    req_ensure_env()
 
     # Make our folders if needed
     req_ensure_folders()
