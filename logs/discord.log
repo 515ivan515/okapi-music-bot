@@ -1,0 +1,1179 @@
+2018-04-29 19:10:14,795:INFO:discord.client: logging in using static token
+2018-04-29 19:10:14,897:DEBUG:discord.http: GET https://discordapp.com/api/v6/users/@me with None has returned 200
+2018-04-29 19:10:14,898:DEBUG:discord.http: GET https://discordapp.com/api/v6/users/@me has received {'username': 'okapi-music', 'verified': True, 'mfa_enabled': False, 'bot': True, 'id': '440299421104734228', 'avatar': None, 'discriminator': '2233', 'email': None}
+2018-04-29 19:10:14,911:DEBUG:discord.http: GET https://discordapp.com/api/v6/gateway with None has returned 200
+2018-04-29 19:10:14,912:DEBUG:discord.http: GET https://discordapp.com/api/v6/gateway has received {'url': 'wss://gateway.discord.gg'}
+2018-04-29 19:10:15,075:INFO:discord.gateway: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6
+2018-04-29 19:10:15,076:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:10:15,076:DEBUG:discord.gateway: WebSocket Event: {'t': None, 's': None, 'op': 10, 'd': {'heartbeat_interval': 41250, '_trace': ['gateway-prd-main-r6l6']}}
+2018-04-29 19:10:15,076:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:10:15,077:INFO:discord.gateway: sent the identify payload to create the websocket
+2018-04-29 19:10:15,175:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:10:15,175:DEBUG:discord.gateway: WebSocket Event: {'t': 'READY', 's': 1, 'op': 0, 'd': {'v': 6, 'user_settings': {}, 'user': {'verified': True, 'username': 'okapi-music', 'mfa_enabled': False, 'id': '440299421104734228', 'email': None, 'discriminator': '2233', 'bot': True, 'avatar': None}, 'session_id': 'ae9fb1b924bfda5c0d6d0c79572f9f0f', 'relationships': [], 'private_channels': [], 'presences': [], 'guilds': [{'unavailable': True, 'id': '408203316250542082'}], '_trace': ['gateway-prd-main-r6l6', 'discord-sessions-prd-1-1']}}
+2018-04-29 19:10:15,175:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:10:15,176:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:10:15,178:DEBUG:discord.gateway: WebSocket Event: {'t': 'GUILD_CREATE', 's': 2, 'op': 0, 'd': {'voice_states': [{'user_id': '236614912284033024', 'suppress': False, 'session_id': '36da106dc2054977141d2db100b53078', 'self_video': False, 'self_mute': False, 'self_deaf': False, 'mute': False, 'deaf': False, 'channel_id': '440303710879612938'}], 'verification_level': 2, 'unavailable': False, 'system_channel_id': None, 'splash': None, 'roles': [{'position': 0, 'permissions': 3072, 'name': '@everyone', 'mentionable': False, 'managed': False, 'id': '408203316250542082', 'hoist': False, 'color': 0}, {'position': 6, 'permissions': 2146942207, 'name': 'Just A Lord', 'mentionable': False, 'managed': False, 'id': '408204186124156939', 'hoist': True, 'color': 15105570}, {'position': 5, 'permissions': 8, 'name': 'ndeogj', 'mentionable': False, 'managed': True, 'id': '415347191700520970', 'hoist': True, 'color': 3447003}, {'position': 2, 'permissions': 2146958583, 'name': 'Just An Embed Bot', 'mentionable': False, 'managed': True, 'id': '417131053187334164', 'hoist': False, 'color': 3447003}, {'position': 1, 'permissions': 68608, 'name': 'Just A Real Human', 'mentionable': False, 'managed': False, 'id': '417363402890149918', 'hoist': True, 'color': 3066993}, {'position': 4, 'permissions': 8, 'name': 'ndeogj test', 'mentionable': False, 'managed': True, 'id': '417885582082048000', 'hoist': True, 'color': 3447003}, {'position': 3, 'permissions': 2146958591, 'name': 'Just A Bot', 'mentionable': True, 'managed': False, 'id': '420321229283786763', 'hoist': True, 'color': 3447003}, {'position': 1, 'permissions': 330944, 'name': 'Okapi Logger', 'mentionable': False, 'managed': True, 'id': '430814126244233236', 'hoist': False, 'color': 0}, {'position': 1, 'permissions': 66579520, 'name': 'okapi-music', 'mentionable': False, 'managed': True, 'id': '440303265545191444', 'hoist': False, 'color': 0}], 'region': 'us-south', 'presences': [{'user': {'id': '198681707677745154'}, 'status': 'idle', 'game': {'type': 2, 'timestamps': {'start': 1525046886808, 'end': 1525047120625}, 'sync_id': '601KiLiZtBJRTXBrTjeieP', 'state': 'Mac DeMarco', 'session_id': '8bfca764a03e533f78cfc9b0b432bb6e', 'party': {'id': 'spotify:198681707677745154'}, 'name': 'Spotify', 'flags': 48, 'details': 'Ode to Viceroy', 'assets': {'large_text': '2', 'large_image': 'spotify:def570905eb6499bb80d512986fe0c25cc659a8d'}}}, {'user': {'id': '236614912284033024'}, 'status': 'online', 'game': None}, {'user': {'id': '293731150239891456'}, 'status': 'online', 'game': {'type': 0, 'name': '>help • 1747 widgets'}}, {'user': {'id': '355904428563365898'}, 'status': 'online', 'game': None}, {'user': {'id': '415269773887406080'}, 'status': 'online', 'game': None}, {'user': {'id': '440299421104734228'}, 'status': 'online', 'game': None}], 'owner_id': '236614912284033024', 'name': 'NDEogJ', 'mfa_level': 0, 'members': [{'user': {'username': 'good & greasy autistic meatball', 'id': '198681707677745154', 'discriminator': '5054', 'avatar': 'f6cfdc31efb7350c873c123eeab38a12'}, 'roles': ['417363402890149918'], 'mute': False, 'joined_at': '2018-03-01T02:31:40.950000+00:00', 'deaf': False}, {'user': {'username': 'Just An Okapi', 'id': '236614912284033024', 'discriminator': '8112', 'avatar': 'ad1309129aaa3c6327a534c9a7e85303'}, 'roles': ['408204186124156939', '417363402890149918'], 'mute': False, 'joined_at': '2018-01-31T10:14:14.701000+00:00', 'deaf': False}, {'user': {'username': 'AeroPulse{SuicidePactLeader}', 'id': '269866333489856512', 'discriminator': '4076', 'avatar': 'f595dc589e84948123528aa1e4cd9d23'}, 'roles': ['417363402890149918'], 'mute': False, 'joined_at': '2018-02-23T20:28:52.610000+00:00', 'deaf': False}, {'user': {'username': 'WidgetBot.io', 'id': '293731150239891456', 'discriminator': '9092', 'bot': True, 'avatar': '50d178e77d03c11c5dbc42ea993b3666'}, 'roles': ['417131053187334164', '420321229283786763'], 'nick': 'ndeogj embed', 'mute': False, 'joined_at': '2018-02-25T01:29:52.995000+00:00', 'deaf': False}, {'user': {'username': '~ᴅᴇꜱᴩᴀᴄɪᴛᴏ~', 'id': '355904428563365898', 'discriminator': '4609', 'avatar': '3f01890f0b653c053974613234c7b6e8'}, 'roles': ['417363402890149918'], 'mute': False, 'joined_at': '2018-02-23T18:50:44.331000+00:00', 'deaf': False}, {'user': {'username': 'Garmie~Chan', 'id': '367321844287537162', 'discriminator': '5208', 'avatar': 'bbb233f86d17ca4c275c6070c01337de'}, 'roles': ['417363402890149918'], 'mute': False, 'joined_at': '2018-02-25T02:32:20.242000+00:00', 'deaf': False}, {'user': {'username': 'XxCoolKiddoxX', 'id': '373161441924087808', 'discriminator': '1321', 'avatar': '66d328a763d6ddb8011b03a10298d08f'}, 'roles': ['417363402890149918'], 'mute': False, 'joined_at': '2018-02-26T15:37:00.861000+00:00', 'deaf': False}, {'user': {'username': 'daniel_ts123', 'id': '376773680375660544', 'discriminator': '6598', 'avatar': None}, 'roles': ['417363402890149918'], 'mute': False, 'joined_at': '2018-03-03T17:30:43.534000+00:00', 'deaf': False}, {'user': {'username': 'The peperoni playboyo 🍝🍕', 'id': '391655054161215488', 'discriminator': '8093', 'avatar': '65ef5d49531900dc87d70d09efe6a31d'}, 'roles': ['417363402890149918'], 'mute': False, 'joined_at': '2018-03-25T04:04:55.221000+00:00', 'deaf': False}, {'user': {'username': 'Bill_Murray', 'id': '412708723652558848', 'discriminator': '0018', 'avatar': 'e7e35ac0a00638a670b28cf56f0e85b9'}, 'roles': ['417363402890149918'], 'mute': False, 'joined_at': '2018-03-05T14:53:15.641000+00:00', 'deaf': False}, {'user': {'username': 'ndeogj', 'id': '415269773887406080', 'discriminator': '7547', 'bot': True, 'avatar': 'e1026a364bb852e77b8d06591b26e35a'}, 'roles': ['415347191700520970', '420321229283786763'], 'mute': False, 'joined_at': '2018-02-20T03:21:27.275000+00:00', 'deaf': False}, {'user': {'username': 'ndeogj test', 'id': '417883904154796032', 'discriminator': '0968', 'bot': True, 'avatar': 'e1026a364bb852e77b8d06591b26e35a'}, 'roles': ['417885582082048000', '420321229283786763'], 'mute': False, 'joined_at': '2018-02-27T03:28:06.684000+00:00', 'deaf': False}, {'user': {'username': 'HitlerWasAnOkayGuy', 'id': '418841915908292609', 'discriminator': '5971', 'avatar': None}, 'roles': ['417363402890149918'], 'mute': False, 'joined_at': '2018-03-01T18:48:41.737000+00:00', 'deaf': False}, {'user': {'username': 'HitlerWasAnOkayGuy', 'id': '420246666734600192', 'discriminator': '4007', 'avatar': '71d1b160979154cb1eb30509996aacad'}, 'roles': ['417363402890149918'], 'mute': False, 'joined_at': '2018-03-05T15:50:33.387000+00:00', 'deaf': False}, {'user': {'username': 'san33er', 'id': '420254089738190852', 'discriminator': '0280', 'avatar': '5bcf009c734229549721f97c307f175e'}, 'roles': ['417363402890149918'], 'mute': False, 'joined_at': '2018-03-05T19:57:51.163000+00:00', 'deaf': False}, {'user': {'username': 'poo poo nuggets', 'id': '420317682127208448', 'discriminator': '7539', 'avatar': None}, 'roles': ['417363402890149918'], 'mute': False, 'joined_at': '2018-03-05T20:40:29.626000+00:00', 'deaf': False}, {'user': {'username': 'Okapi Logger', 'id': '430813010999902209', 'discriminator': '4082', 'bot': True, 'avatar': '40409ba0f6273230dbba284ea5dbda6b'}, 'roles': ['420321229283786763', '430814126244233236'], 'mute': False, 'joined_at': '2018-04-03T19:41:31.827000+00:00', 'deaf': False}, {'user': {'username': 'vicky cruzer', 'id': '435890605583892480', 'discriminator': '8117', 'avatar': None}, 'roles': [], 'mute': False, 'joined_at': '2018-04-17T19:54:00.045000+00:00', 'deaf': False}, {'user': {'username': 'okapi-music', 'id': '440299421104734228', 'discriminator': '2233', 'bot': True, 'avatar': None}, 'roles': ['440303265545191444'], 'nick': None, 'mute': False, 'joined_at': '2018-04-30T00:07:58.936742+00:00', 'deaf': False}], 'member_count': 19, 'lazy': False, 'large': False, 'joined_at': '2018-04-30T00:07:58.936742+00:00', 'id': '408203316250542082', 'icon': '31e76a1bc55b6ed3bdba04c8899e8492', 'features': [], 'explicit_content_filter': 1, 'emojis': [{'roles': [], 'require_colons': True, 'name': 'python', 'managed': False, 'id': '417167904342278155', 'animated': False}, {'roles': [], 'require_colons': True, 'name': 'discord', 'managed': False, 'id': '417169255629455371', 'animated': False}, {'roles': [], 'require_colons': True, 'name': 'blob0w0', 'managed': False, 'id': '417370606921711616', 'animated': False}, {'roles': [], 'require_colons': True, 'name': 'blobamused', 'managed': False, 'id': '417370692837965834', 'animated': False}, {'roles': [], 'require_colons': True, 'name': 'blobangel', 'managed': False, 'id': '417370783061639170', 'animated': False}, {'roles': [], 'require_colons': True, 'name': 'blobangery', 'managed': False, 'id': '417370804620361739', 'animated': False}, {'roles': [], 'require_colons': True, 'name': 'blobangry', 'managed': False, 'id': '417370828334825482', 'animated': False}, {'roles': [], 'require_colons': True, 'name': 'blobnauseated', 'managed': False, 'id': '417370910325080064', 'animated': False}, {'roles': [], 'require_colons': True, 'name': 'blobaww', 'managed': False, 'id': '417370941421781005', 'animated': False}, {'roles': [], 'require_colons': True, 'name': 'blobawkward', 'managed': False, 'id': '417370961332011028', 'animated': False}, {'roles': [], 'require_colons': True, 'name': 'blobastonished', 'managed': False, 'id': '417370990054604820', 'animated': False}, {'roles': [], 'require_colons': True, 'name': 'blobconfused', 'managed': False, 'id': '417371065220726784', 'animated': False}, {'roles': [], 'require_colons': True, 'name': 'blobcool', 'managed': False, 'id': '417371114239688704', 'animated': False}, {'roles': [], 'require_colons': True, 'name': 'blobcry', 'managed': False, 'id': '417371183592505344', 'animated': False}, {'roles': [], 'require_colons': True, 'name': 'blobdead', 'managed': False, 'id': '417371212474482699', 'animated': False}, {'roles': [], 'require_colons': True, 'name': 'blobdetective', 'managed': False, 'id': '417371304669347855', 'animated': False}, {'roles': [], 'require_colons': True, 'name': 'blobdizzy', 'managed': False, 'id': '417371345060626443', 'animated': False}, {'roles': [], 'require_colons': True, 'name': 'blobdevil', 'managed': False, 'id': '417371368959508481', 'animated': False}, {'roles': [], 'require_colons': True, 'name': 'blobdrool', 'managed': False, 'id': '417371457622900737', 'animated': False}, {'roles': [], 'require_colons': True, 'name': 'blobexpressionless', 'managed': False, 'id': '417371486542626818', 'animated': False}, {'roles': [], 'require_colons': True, 'name': 'blobeyes', 'managed': False, 'id': '417371513860259841', 'animated': False}, {'roles': [], 'require_colons': True, 'name': 'blobfacepalm', 'managed': False, 'id': '417371534517207044', 'animated': False}, {'roles': [], 'require_colons': True, 'name': 'blobfearful', 'managed': False, 'id': '417371561243181077', 'animated': False}, {'roles': [], 'require_colons': True, 'name': 'blobfrown', 'managed': False, 'id': '417371640612126725', 'animated': False}, {'roles': [], 'require_colons': True, 'name': 'blobfrowningbig', 'managed': False, 'id': '417371683230318602', 'animated': False}, {'roles': [], 'require_colons': True, 'name': 'blobglare', 'managed': False, 'id': '417371723986370570', 'animated': False}, {'roles': [], 'require_colons': True, 'name': 'blobidea', 'managed': False, 'id': '417371832740610048', 'animated': False}, {'roles': [], 'require_colons': True, 'name': 'bloblul', 'managed': False, 'id': '417371886738210827', 'animated': False}, {'roles': [], 'require_colons': True, 'name': 'blobmoustache', 'managed': False, 'id': '417371932858646549', 'animated': False}, {'roles': [], 'require_colons': True, 'name': 'blobokhand', 'managed': False, 'id': '417372042866851851', 'animated': False}, {'roles': [], 'require_colons': True, 'name': 'blobonfire', 'managed': False, 'id': '417372080464723994', 'animated': False}, {'roles': [], 'require_colons': True, 'name': 'blobtilt', 'managed': False, 'id': '417372292260298762', 'animated': False}, {'roles': [], 'require_colons': True, 'name': 'blobowoevil', 'managed': False, 'id': '417372388737548289', 'animated': False}, {'roles': [], 'require_colons': True, 'name': 'blobsleeping', 'managed': False, 'id': '417372438137929729', 'animated': False}, {'roles': [], 'require_colons': True, 'name': 'blobsleepless', 'managed': False, 'id': '417372530047713280', 'animated': False}, {'roles': [], 'require_colons': True, 'name': 'blobsmile', 'managed': False, 'id': '417372558275641345', 'animated': False}, {'roles': [], 'require_colons': True, 'name': 'blobsmirk', 'managed': False, 'id': '417372610515566602', 'animated': False}, {'roles': [], 'require_colons': True, 'name': 'blobspy', 'managed': False, 'id': '417372667323219968', 'animated': False}, {'roles': [], 'require_colons': True, 'name': 'blobthinking', 'managed': False, 'id': '417372736529235989', 'animated': False}, {'roles': [], 'require_colons': True, 'name': 'blobthumbsdown', 'managed': False, 'id': '417372896248463360', 'animated': False}, {'roles': [], 'require_colons': True, 'name': 'blobgentle', 'managed': False, 'id': '417373047649992716', 'animated': False}, {'roles': [], 'require_colons': True, 'name': 'blobunsure', 'managed': False, 'id': '417373235554942986', 'animated': False}, {'roles': [], 'require_colons': True, 'name': 'blobderpy', 'managed': False, 'id': '417373351888027648', 'animated': False}, {'roles': [], 'require_colons': True, 'name': 'blobrain', 'managed': False, 'id': '417373379289415690', 'animated': False}, {'roles': [], 'require_colons': True, 'name': 'blobrick', 'managed': False, 'id': '417373415167492104', 'animated': False}, {'roles': [], 'require_colons': True, 'name': 'blobnelly', 'managed': False, 'id': '417373712254369797', 'animated': False}, {'roles': [], 'require_colons': True, 'name': 'blobnogood', 'managed': False, 'id': '417433715338117121', 'animated': False}, {'roles': [], 'require_colons': True, 'name': 'blobkir', 'managed': False, 'id': '417433992351055872', 'animated': False}, {'roles': [], 'require_colons': True, 'name': 'blobconfounded', 'managed': False, 'id': '417434303933186049', 'animated': False}, {'roles': [], 'require_colons': True, 'name': 'blobwoah', 'managed': False, 'id': '417438617083052128', 'animated': False}, {'roles': [], 'require_colons': True, 'name': 'loading', 'managed': False, 'id': '418291364221157386', 'animated': True}, {'roles': [], 'require_colons': True, 'name': 'bio', 'managed': False, 'id': '418297379645685765', 'animated': True}, {'roles': [], 'require_colons': True, 'name': 'Clap', 'managed': False, 'id': '418297440064634891', 'animated': True}, {'roles': [], 'require_colons': True, 'name': 'DiscordHype', 'managed': False, 'id': '418297451192254474', 'animated': True}, {'roles': [], 'require_colons': True, 'name': 'ditto', 'managed': False, 'id': '418297461954707456', 'animated': True}, {'roles': [], 'require_colons': True, 'name': 'EggplantHand', 'managed': False, 'id': '418297472000065537', 'animated': True}, {'roles': [], 'require_colons': True, 'name': 'Feels3DMan', 'managed': False, 'id': '418297496410914819', 'animated': True}, {'roles': [], 'require_colons': True, 'name': 'fghjkl', 'managed': False, 'id': '418297510184878101', 'animated': True}, {'roles': [], 'require_colons': True, 'name': 'funkyparrot', 'managed': False, 'id': '418297517625704448', 'animated': True}, {'roles': [], 'require_colons': True, 'name': 'kthnxbai', 'managed': False, 'id': '418297528484757504', 'animated': True}, {'roles': [], 'require_colons': True, 'name': 'monkaShoot', 'managed': False, 'id': '418297538915860490', 'animated': True}, {'roles': [], 'require_colons': True, 'name': 'PepePls', 'managed': False, 'id': '418297550416904192', 'animated': True}, {'roles': [], 'require_colons': True, 'name': 'spinthink', 'managed': False, 'id': '418297579005280274', 'animated': True}, {'roles': [], 'require_colons': True, 'name': 'squidwarddance', 'managed': False, 'id': '418297588861894656', 'animated': True}, {'roles': [], 'require_colons': True, 'name': 'vMad', 'managed': False, 'id': '418297609363390464', 'animated': True}, {'roles': [], 'require_colons': True, 'name': 'wat', 'managed': False, 'id': '418297638102761473', 'animated': True}], 'default_message_notifications': 1, 'channels': [{'user_limit': 0, 'type': 4, 'position': 0, 'permission_overwrites': [{'type': 'role', 'id': '408203316250542082', 'deny': 871824465, 'allow': 65536}], 'name': 'Boring Stuff', 'id': '408203316250542083', 'bitrate': 64000}, {'type': 0, 'topic': '', 'position': 0, 'permission_overwrites': [{'type': 'member', 'id': '415269773887406080', 'deny': 0, 'allow': 805829713}, {'type': 'role', 'id': '408203316250542082', 'deny': 871823441, 'allow': 66560}, {'type': 'role', 'id': '417131053187334164', 'deny': 268892240, 'allow': 536937473}], 'parent_id': '408203316250542083', 'name': 'welcome', 'last_message_id': '434486616199790592', 'id': '408203664457728000'}, {'user_limit': 0, 'type': 4, 'position': 1, 'permission_overwrites': [{'type': 'member', 'id': '293731150239891456', 'deny': 334950480, 'allow': 536939521}, {'type': 'role', 'id': '408203316250542082', 'deny': 871888977, 'allow': 1024}, {'type': 'role', 'id': '417363402890149918', 'deny': 871821393, 'allow': 68608}], 'name': 'Chat', 'id': '415329502684512286', 'bitrate': 64000}, {'type': 0, 'topic': None, 'position': 3, 'permission_overwrites': [{'type': 'member', 'id': '293731150239891456', 'deny': 334950480, 'allow': 536939521}, {'type': 'role', 'id': '408203316250542082', 'deny': 871888977, 'allow': 1024}, {'type': 'role', 'id': '417363402890149918', 'deny': 871821393, 'allow': 68608}], 'parent_id': '415329502684512286', 'name': 'bot-spam', 'last_message_id': '440303762159173652', 'id': '416029196750422017'}, {'type': 0, 'topic': None, 'position': 1, 'permission_overwrites': [{'type': 'member', 'id': '293731150239891456', 'deny': 334950480, 'allow': 536939521}, {'type': 'role', 'id': '408203316250542082', 'deny': 871888977, 'allow': 1024}, {'type': 'role', 'id': '417363402890149918', 'deny': 871821393, 'allow': 68608}], 'parent_id': '415329502684512286', 'name': 'safe-for-school', 'last_message_id': '438342018058682368', 'id': '416029499063271462'}, {'type': 0, 'topic': None, 'position': 4, 'permission_overwrites': [{'type': 'role', 'id': '420321229283786763', 'deny': 0, 'allow': 1024}, {'type': 'role', 'id': '408203316250542082', 'deny': 1024, 'allow': 0}, {'type': 'role', 'id': '408204186124156939', 'deny': 0, 'allow': 1024}], 'parent_id': '415329502684512286', 'name': 'talk-to-my-self', 'last_message_id': '439854717263151109', 'id': '425697811766575115'}, {'user_limit': 0, 'type': 2, 'position': 0, 'permission_overwrites': [{'type': 'member', 'id': '293731150239891456', 'deny': 334950480, 'allow': 536939521}, {'type': 'role', 'id': '408203316250542082', 'deny': 871888977, 'allow': 1024}, {'type': 'role', 'id': '417363402890149918', 'deny': 871821393, 'allow': 68608}], 'parent_id': '415329502684512286', 'nsfw': False, 'name': 'Music', 'id': '440303710879612938', 'bitrate': 64000}], 'application_id': None, 'afk_timeout': 300, 'afk_channel_id': None}}
+2018-04-29 19:10:15,178:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:10:15,180:DEBUG:discord.client: Dispatching event server_available
+2018-04-29 19:10:17,184:DEBUG:discord.client: Dispatching event ready
+2018-04-29 19:10:17,239:DEBUG:discord.http: GET https://discordapp.com/api/v6/oauth2/applications/@me with None has returned 200
+2018-04-29 19:10:17,239:DEBUG:discord.http: GET https://discordapp.com/api/v6/oauth2/applications/@me has received {'description': '', 'name': 'okapi-music', 'owner': {'username': 'Just An Okapi', 'discriminator': '8112', 'id': '236614912284033024', 'avatar': 'ad1309129aaa3c6327a534c9a7e85303'}, 'bot_public': True, 'bot_require_code_grant': False, 'id': '440299421104734228', 'icon': None}
+2018-04-29 19:10:33,205:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:10:33,206:DEBUG:discord.gateway: WebSocket Event: {'t': 'PRESENCE_UPDATE', 's': 3, 'op': 0, 'd': {'user': {'id': '355904428563365898'}, 'status': 'offline', 'roles': ['417363402890149918'], 'nick': None, 'guild_id': '408203316250542082', 'game': None}}
+2018-04-29 19:10:33,206:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:10:33,207:DEBUG:discord.client: Dispatching event member_update
+2018-04-29 19:10:38,741:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:10:38,741:DEBUG:discord.gateway: WebSocket Event: {'t': 'CHANNEL_UPDATE', 's': 4, 'op': 0, 'd': {'user_limit': 0, 'type': 2, 'position': 0, 'permission_overwrites': [{'type': 'member', 'id': '293731150239891456', 'deny': 334950480, 'allow': 536939521}, {'type': 'role', 'id': '408203316250542082', 'deny': 871888977, 'allow': 1024}, {'type': 'role', 'id': '420321229283786763', 'deny': 0, 'allow': 0}, {'type': 'role', 'id': '417363402890149918', 'deny': 871821393, 'allow': 68608}], 'parent_id': '415329502684512286', 'nsfw': False, 'name': 'Music', 'id': '440303710879612938', 'guild_id': '408203316250542082', 'bitrate': 64000}}
+2018-04-29 19:10:38,741:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:10:38,742:DEBUG:discord.client: Dispatching event channel_update
+2018-04-29 19:10:43,612:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:10:43,613:DEBUG:discord.gateway: WebSocket Event: {'t': 'GUILD_MEMBER_UPDATE', 's': 5, 'op': 0, 'd': {'user': {'username': 'okapi-music', 'id': '440299421104734228', 'discriminator': '2233', 'bot': True, 'avatar': None}, 'roles': ['420321229283786763', '440303265545191444'], 'nick': None, 'guild_id': '408203316250542082'}}
+2018-04-29 19:10:43,613:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:10:43,613:DEBUG:discord.client: Dispatching event member_update
+2018-04-29 19:10:47,682:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:10:47,683:DEBUG:discord.gateway: WebSocket Event: {'t': 'PRESENCE_UPDATE', 's': 6, 'op': 0, 'd': {'user': {'id': '293731150239891456'}, 'status': 'online', 'roles': ['417131053187334164', '420321229283786763'], 'nick': 'ndeogj embed', 'guild_id': '408203316250542082', 'game': {'type': 0, 'name': '>help • 1930 guilds'}}}
+2018-04-29 19:10:47,683:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:10:47,683:DEBUG:discord.client: Dispatching event member_update
+2018-04-29 19:10:56,331:DEBUG:discord.gateway: Keeping websocket alive with sequence 6
+2018-04-29 19:10:56,392:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:10:56,393:DEBUG:discord.gateway: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2018-04-29 19:10:56,394:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:11:02,025:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:11:02,026:DEBUG:discord.gateway: WebSocket Event: {'t': 'CHANNEL_UPDATE', 's': 7, 'op': 0, 'd': {'user_limit': 0, 'type': 2, 'position': 0, 'permission_overwrites': [{'type': 'member', 'id': '293731150239891456', 'deny': 334950480, 'allow': 536939521}, {'type': 'role', 'id': '408203316250542082', 'deny': 871888977, 'allow': 1024}, {'type': 'role', 'id': '420321229283786763', 'deny': 0, 'allow': 871367697}, {'type': 'role', 'id': '417363402890149918', 'deny': 871821393, 'allow': 68608}], 'parent_id': '415329502684512286', 'nsfw': False, 'name': 'Music', 'id': '440303710879612938', 'guild_id': '408203316250542082', 'bitrate': 64000}}
+2018-04-29 19:11:02,026:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:11:02,026:DEBUG:discord.client: Dispatching event channel_update
+2018-04-29 19:11:05,443:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:11:05,443:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 8, 'op': 0, 'd': {'user_id': '236614912284033024', 'timestamp': 1525047065, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:11:05,443:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:11:05,444:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:11:08,524:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:11:08,525:DEBUG:discord.gateway: WebSocket Event: {'t': 'MESSAGE_CREATE', 's': 9, 'op': 0, 'd': {'type': 0, 'tts': False, 'timestamp': '2018-04-30T00:11:08.424000+00:00', 'pinned': False, 'nonce': '440304060071936000', 'mentions': [], 'mention_roles': [], 'mention_everyone': False, 'id': '440304060277719041', 'embeds': [], 'edited_timestamp': None, 'content': 'F.play test', 'channel_id': '416029196750422017', 'author': {'username': 'Just An Okapi', 'id': '236614912284033024', 'discriminator': '8112', 'avatar': 'ad1309129aaa3c6327a534c9a7e85303'}, 'attachments': [], 'guild_id': '408203316250542082'}}
+2018-04-29 19:11:08,525:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:11:08,525:DEBUG:discord.client: Dispatching event message
+2018-04-29 19:11:08,634:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:11:08,634:DEBUG:discord.gateway: WebSocket Event: {'t': 'MESSAGE_CREATE', 's': 10, 'op': 0, 'd': {'type': 0, 'tts': False, 'timestamp': '2018-04-30T00:11:08.551000+00:00', 'pinned': False, 'nonce': None, 'mentions': [], 'mention_roles': [], 'mention_everyone': False, 'id': '440304060810133515', 'embeds': [{'type': 'rich', 'footer': {'text': 'Just-Some-Bots/MusicBot (1.9.7)', 'proxy_icon_url': 'https://images-ext-2.discordapp.net/external/5pzmnAqUgCRarailEEaHuDkmh1T2fWOQeB_IA-auW5I/https/i.imgur.com/gFHBoZA.png', 'icon_url': 'https://i.imgur.com/gFHBoZA.png'}, 'fields': [{'value': 'The bot is not in a voice channel.  Use F.summon to summon it to your voice channel.', 'name': 'Error', 'inline': False}], 'color': 13369344, 'author': {'url': 'https://github.com/Just-Some-Bots/MusicBot', 'name': 'okapi-music'}}], 'edited_timestamp': None, 'content': '', 'channel_id': '416029196750422017', 'author': {'username': 'okapi-music', 'id': '440299421104734228', 'discriminator': '2233', 'bot': True, 'avatar': None}, 'attachments': [], 'guild_id': '408203316250542082'}}
+2018-04-29 19:11:08,635:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:11:08,635:DEBUG:discord.client: Dispatching event message
+2018-04-29 19:11:08,664:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/messages with {"embed":{"footer":{"text":"Just-Some-Bots/MusicBot (1.9.7)","icon_url":"https://i.imgur.com/gFHBoZA.png"},"author":{"name":"okapi-music","url":"https://github.com/Just-Some-Bots/MusicBot","icon_url":""},"fields":[{"inline":false,"name":"Error","value":"The bot is not in a voice channel.  Use F.summon to summon it to your voice channel."}],"color":13369344,"type":"rich"}} has returned 200
+2018-04-29 19:11:08,665:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/messages has received {'nonce': None, 'attachments': [], 'tts': False, 'embeds': [{'color': 13369344, 'fields': [{'inline': False, 'name': 'Error', 'value': 'The bot is not in a voice channel.  Use F.summon to summon it to your voice channel.'}], 'footer': {'text': 'Just-Some-Bots/MusicBot (1.9.7)', 'proxy_icon_url': 'https://images-ext-2.discordapp.net/external/5pzmnAqUgCRarailEEaHuDkmh1T2fWOQeB_IA-auW5I/https/i.imgur.com/gFHBoZA.png', 'icon_url': 'https://i.imgur.com/gFHBoZA.png'}, 'type': 'rich', 'author': {'url': 'https://github.com/Just-Some-Bots/MusicBot', 'name': 'okapi-music'}}], 'timestamp': '2018-04-30T00:11:08.551000+00:00', 'mention_everyone': False, 'id': '440304060810133515', 'pinned': False, 'edited_timestamp': None, 'author': {'username': 'okapi-music', 'discriminator': '2233', 'bot': True, 'id': '440299421104734228', 'avatar': None}, 'mention_roles': [], 'content': '', 'channel_id': '416029196750422017', 'mentions': [], 'type': 0}
+2018-04-29 19:11:08,683:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:11:08,683:DEBUG:discord.gateway: WebSocket Event: {'t': 'MESSAGE_UPDATE', 's': 11, 'op': 0, 'd': {'id': '440304060810133515', 'embeds': [{'type': 'rich', 'footer': {'text': 'Just-Some-Bots/MusicBot (1.9.7)', 'proxy_icon_url': 'https://images-ext-2.discordapp.net/external/5pzmnAqUgCRarailEEaHuDkmh1T2fWOQeB_IA-auW5I/https/i.imgur.com/gFHBoZA.png', 'icon_url': 'https://i.imgur.com/gFHBoZA.png'}, 'fields': [{'value': 'The bot is not in a voice channel.  Use F.summon to summon it to your voice channel.', 'name': 'Error', 'inline': False}], 'color': 13369344, 'author': {'url': 'https://github.com/Just-Some-Bots/MusicBot', 'name': 'okapi-music'}}], 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:11:08,683:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:11:08,683:DEBUG:discord.client: Dispatching event message_edit
+2018-04-29 19:11:14,923:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:11:14,923:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 12, 'op': 0, 'd': {'user_id': '236614912284033024', 'timestamp': 1525047074, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:11:14,923:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:11:14,924:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:11:22,944:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:11:22,944:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 13, 'op': 0, 'd': {'user_id': '236614912284033024', 'timestamp': 1525047082, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:11:22,944:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:11:22,945:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:11:26,014:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:11:26,015:DEBUG:discord.gateway: WebSocket Event: {'t': 'MESSAGE_CREATE', 's': 14, 'op': 0, 'd': {'type': 0, 'tts': False, 'timestamp': '2018-04-30T00:11:25.874000+00:00', 'pinned': False, 'nonce': '440304133635833856', 'mentions': [], 'mention_roles': [], 'mention_everyone': False, 'id': '440304133468061699', 'embeds': [], 'edited_timestamp': None, 'content': 'F.summon', 'channel_id': '416029196750422017', 'author': {'username': 'Just An Okapi', 'id': '236614912284033024', 'discriminator': '8112', 'avatar': 'ad1309129aaa3c6327a534c9a7e85303'}, 'attachments': [], 'guild_id': '408203316250542082'}}
+2018-04-29 19:11:26,015:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:11:26,015:DEBUG:discord.client: Dispatching event message
+2018-04-29 19:11:26,090:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:11:26,090:DEBUG:discord.gateway: WebSocket Event: {'t': 'VOICE_STATE_UPDATE', 's': 15, 'op': 0, 'd': {'user_id': '440299421104734228', 'suppress': False, 'session_id': 'ae9fb1b924bfda5c0d6d0c79572f9f0f', 'self_video': False, 'self_mute': False, 'self_deaf': False, 'mute': False, 'guild_id': '408203316250542082', 'deaf': False, 'channel_id': '440303710879612938'}}
+2018-04-29 19:11:26,090:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:11:26,091:DEBUG:discord.client: Dispatching event voice_state_update
+2018-04-29 19:11:26,150:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:11:26,151:DEBUG:discord.gateway: WebSocket Event: {'t': 'VOICE_SERVER_UPDATE', 's': 16, 'op': 0, 'd': {'token': 'be10bc301973baf2', 'guild_id': '408203316250542082', 'endpoint': 'us-south341.discord.gg:80'}}
+2018-04-29 19:11:26,151:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:11:26,151:INFO:discord.gateway: Unhandled event VOICE_SERVER_UPDATE
+2018-04-29 19:11:26,156:INFO:discord.voice_client: created opus encoder with {'sampling_rate': 48000, 'channels': 2, 'application': 2049, 'frame_length': 20, 'sample_size': 4, 'samples_per_frame': 960, 'frame_size': 3840, '_state': <discord.opus.LP_EncoderStruct object at 0x10e9d9bf8>}
+2018-04-29 19:11:26,157:INFO:discord.voice_client: voice connection is connecting...
+2018-04-29 19:11:26,158:INFO:discord.voice_client: Voice endpoint found us-south341.discord.gg (IP: 75.126.73.18)
+2018-04-29 19:11:26,213:DEBUG:discord.gateway: Voice websocket frame received: {'op': 8, 'd': {'v': 1, 'heartbeat_interval': 55000}}
+2018-04-29 19:11:26,223:DEBUG:discord.gateway: Voice websocket frame received: {'op': 2, 'd': {'ssrc': 4, 'port': 51261, 'modes': ['xsalsa20_poly1305_suffix', 'xsalsa20_poly1305'], 'ip': '75.126.73.18', 'heartbeat_interval': 5500}}
+2018-04-29 19:11:26,232:DEBUG:discord.gateway: received packet in initial_connection: b'\x04\x00\x00\x00104.188.240.249\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00h\xf9'
+2018-04-29 19:11:26,232:DEBUG:discord.gateway: detected ip: 104.188.240.249 port: 63848
+2018-04-29 19:11:26,233:DEBUG:discord.gateway: Selected protocol as {'op': 1, 'd': {'protocol': 'udp', 'data': {'address': '104.188.240.249', 'port': 63848, 'mode': 'xsalsa20_poly1305'}}}
+2018-04-29 19:11:26,233:INFO:discord.gateway: selected the voice protocol for use
+2018-04-29 19:11:26,241:DEBUG:discord.gateway: Voice websocket frame received: {'op': 4, 'd': {'video_codec': 'VP8', 'secret_key': [159, 201, 235, 200, 255, 9, 71, 158, 13, 65, 124, 147, 57, 63, 60, 164, 100, 145, 211, 87, 189, 139, 58, 217, 169, 172, 166, 119, 56, 64, 74, 37], 'mode': 'xsalsa20_poly1305', 'media_session_id': '67dfa008f047106f9f4e194660ac5dd8', 'audio_codec': 'opus'}}
+2018-04-29 19:11:26,242:INFO:discord.gateway: received secret key for voice connection
+2018-04-29 19:11:26,242:DEBUG:discord.gateway: Voice speaking now set to True
+2018-04-29 19:11:29,159:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/messages with {"embed":{"footer":{"text":"Just-Some-Bots/MusicBot (1.9.7)","icon_url":"https://i.imgur.com/gFHBoZA.png"},"author":{"name":"okapi-music","url":"https://github.com/Just-Some-Bots/MusicBot","icon_url":""},"color":7506394,"type":"rich","description":"Connected to `Music`","title":"summon"}} has returned 200
+2018-04-29 19:11:29,159:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/messages has received {'nonce': None, 'attachments': [], 'tts': False, 'embeds': [{'description': 'Connected to `Music`', 'footer': {'text': 'Just-Some-Bots/MusicBot (1.9.7)', 'proxy_icon_url': 'https://images-ext-2.discordapp.net/external/5pzmnAqUgCRarailEEaHuDkmh1T2fWOQeB_IA-auW5I/https/i.imgur.com/gFHBoZA.png', 'icon_url': 'https://i.imgur.com/gFHBoZA.png'}, 'color': 7506394, 'author': {'url': 'https://github.com/Just-Some-Bots/MusicBot', 'name': 'okapi-music'}, 'title': 'summon', 'type': 'rich'}], 'timestamp': '2018-04-30T00:11:29.122000+00:00', 'mention_everyone': False, 'id': '440304147091292171', 'pinned': False, 'edited_timestamp': None, 'author': {'username': 'okapi-music', 'discriminator': '2233', 'bot': True, 'id': '440299421104734228', 'avatar': None}, 'mention_roles': [], 'content': '', 'channel_id': '416029196750422017', 'mentions': [], 'type': 0}
+2018-04-29 19:11:29,161:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:11:29,162:DEBUG:discord.gateway: WebSocket Event: {'t': 'MESSAGE_CREATE', 's': 17, 'op': 0, 'd': {'type': 0, 'tts': False, 'timestamp': '2018-04-30T00:11:29.122000+00:00', 'pinned': False, 'nonce': None, 'mentions': [], 'mention_roles': [], 'mention_everyone': False, 'id': '440304147091292171', 'embeds': [{'type': 'rich', 'title': 'summon', 'footer': {'text': 'Just-Some-Bots/MusicBot (1.9.7)', 'proxy_icon_url': 'https://images-ext-2.discordapp.net/external/5pzmnAqUgCRarailEEaHuDkmh1T2fWOQeB_IA-auW5I/https/i.imgur.com/gFHBoZA.png', 'icon_url': 'https://i.imgur.com/gFHBoZA.png'}, 'description': 'Connected to `Music`', 'color': 7506394, 'author': {'url': 'https://github.com/Just-Some-Bots/MusicBot', 'name': 'okapi-music'}}], 'edited_timestamp': None, 'content': '', 'channel_id': '416029196750422017', 'author': {'username': 'okapi-music', 'id': '440299421104734228', 'discriminator': '2233', 'bot': True, 'avatar': None}, 'attachments': [], 'guild_id': '408203316250542082'}}
+2018-04-29 19:11:29,162:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:11:29,162:DEBUG:discord.client: Dispatching event message
+2018-04-29 19:11:29,331:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:11:29,331:DEBUG:discord.gateway: WebSocket Event: {'t': 'MESSAGE_UPDATE', 's': 18, 'op': 0, 'd': {'id': '440304147091292171', 'embeds': [{'type': 'rich', 'title': 'summon', 'footer': {'text': 'Just-Some-Bots/MusicBot (1.9.7)', 'proxy_icon_url': 'https://images-ext-2.discordapp.net/external/5pzmnAqUgCRarailEEaHuDkmh1T2fWOQeB_IA-auW5I/https/i.imgur.com/gFHBoZA.png', 'icon_url': 'https://i.imgur.com/gFHBoZA.png'}, 'description': 'Connected to `Music`', 'color': 7506394, 'author': {'url': 'https://github.com/Just-Some-Bots/MusicBot', 'name': 'okapi-music'}}], 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:11:29,331:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:11:29,331:DEBUG:discord.client: Dispatching event message_edit
+2018-04-29 19:11:31,036:DEBUG:discord.gateway: Sending "{"op":3,"d":{"game":{"name":"Best VGM 71 - Donkey Kong Country 2 - Stickerbush Symphony (Bramble Blast)","type":0},"afk":false,"since":0.0,"status":"online"}}" to change status
+2018-04-29 19:11:31,036:DEBUG:discord.client: Dispatching event socket_raw_send
+2018-04-29 19:11:31,725:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047091725
+2018-04-29 19:11:31,736:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047091725}
+2018-04-29 19:11:36,569:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:11:36,570:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 19, 'op': 0, 'd': {'user_id': '236614912284033024', 'timestamp': 1525047096, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:11:36,570:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:11:36,570:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:11:37,228:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047097228
+2018-04-29 19:11:37,238:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047097228}
+2018-04-29 19:11:37,584:DEBUG:discord.gateway: Keeping websocket alive with sequence 19
+2018-04-29 19:11:37,646:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:11:37,646:DEBUG:discord.gateway: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2018-04-29 19:11:37,646:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:11:41,789:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:11:41,790:DEBUG:discord.gateway: WebSocket Event: {'t': 'MESSAGE_CREATE', 's': 20, 'op': 0, 'd': {'type': 0, 'tts': False, 'timestamp': '2018-04-30T00:11:41.751000+00:00', 'pinned': False, 'nonce': '440304199834533888', 'mentions': [], 'mention_roles': [], 'mention_everyone': False, 'id': '440304200061026314', 'embeds': [], 'edited_timestamp': None, 'content': 'F.play test', 'channel_id': '416029196750422017', 'author': {'username': 'Just An Okapi', 'id': '236614912284033024', 'discriminator': '8112', 'avatar': 'ad1309129aaa3c6327a534c9a7e85303'}, 'attachments': [], 'guild_id': '408203316250542082'}}
+2018-04-29 19:11:41,790:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:11:41,790:DEBUG:discord.client: Dispatching event message
+2018-04-29 19:11:41,868:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:11:41,868:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:11:41,893:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:11:41,897:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 21, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047101, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:11:41,898:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:11:41,898:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:11:42,734:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047102734
+2018-04-29 19:11:42,744:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047102734}
+2018-04-29 19:11:45,082:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/messages with {"embed":{"footer":{"text":"Just-Some-Bots/MusicBot (1.9.7)","icon_url":"https://i.imgur.com/gFHBoZA.png"},"author":{"name":"okapi-music","url":"https://github.com/Just-Some-Bots/MusicBot","icon_url":""},"color":7506394,"type":"rich","description":"Enqueued `7 Riddles That Will Test Your Brain Power` to be played. Position in queue: 1 - estimated time until playing: 0:04:16","title":"play"}} has returned 200
+2018-04-29 19:11:45,083:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/messages has received {'nonce': None, 'attachments': [], 'tts': False, 'embeds': [{'description': 'Enqueued `7 Riddles That Will Test Your Brain Power` to be played. Position in queue: 1 - estimated time until playing: 0:04:16', 'footer': {'text': 'Just-Some-Bots/MusicBot (1.9.7)', 'proxy_icon_url': 'https://images-ext-2.discordapp.net/external/5pzmnAqUgCRarailEEaHuDkmh1T2fWOQeB_IA-auW5I/https/i.imgur.com/gFHBoZA.png', 'icon_url': 'https://i.imgur.com/gFHBoZA.png'}, 'color': 7506394, 'author': {'url': 'https://github.com/Just-Some-Bots/MusicBot', 'name': 'okapi-music'}, 'title': 'play', 'type': 'rich'}], 'timestamp': '2018-04-30T00:11:44.954000+00:00', 'mention_everyone': False, 'id': '440304213495382037', 'pinned': False, 'edited_timestamp': None, 'author': {'username': 'okapi-music', 'discriminator': '2233', 'bot': True, 'id': '440299421104734228', 'avatar': None}, 'mention_roles': [], 'content': '', 'channel_id': '416029196750422017', 'mentions': [], 'type': 0}
+2018-04-29 19:11:45,152:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:11:45,153:DEBUG:discord.gateway: WebSocket Event: {'t': 'MESSAGE_CREATE', 's': 22, 'op': 0, 'd': {'type': 0, 'tts': False, 'timestamp': '2018-04-30T00:11:44.954000+00:00', 'pinned': False, 'nonce': None, 'mentions': [], 'mention_roles': [], 'mention_everyone': False, 'id': '440304213495382037', 'embeds': [{'type': 'rich', 'title': 'play', 'footer': {'text': 'Just-Some-Bots/MusicBot (1.9.7)', 'proxy_icon_url': 'https://images-ext-2.discordapp.net/external/5pzmnAqUgCRarailEEaHuDkmh1T2fWOQeB_IA-auW5I/https/i.imgur.com/gFHBoZA.png', 'icon_url': 'https://i.imgur.com/gFHBoZA.png'}, 'description': 'Enqueued `7 Riddles That Will Test Your Brain Power` to be played. Position in queue: 1 - estimated time until playing: 0:04:16', 'color': 7506394, 'author': {'url': 'https://github.com/Just-Some-Bots/MusicBot', 'name': 'okapi-music'}}], 'edited_timestamp': None, 'content': '', 'channel_id': '416029196750422017', 'author': {'username': 'okapi-music', 'id': '440299421104734228', 'discriminator': '2233', 'bot': True, 'avatar': None}, 'attachments': [], 'guild_id': '408203316250542082'}}
+2018-04-29 19:11:45,153:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:11:45,153:DEBUG:discord.client: Dispatching event message
+2018-04-29 19:11:45,153:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:11:45,154:DEBUG:discord.gateway: WebSocket Event: {'t': 'MESSAGE_UPDATE', 's': 23, 'op': 0, 'd': {'id': '440304213495382037', 'embeds': [{'type': 'rich', 'title': 'play', 'footer': {'text': 'Just-Some-Bots/MusicBot (1.9.7)', 'proxy_icon_url': 'https://images-ext-2.discordapp.net/external/5pzmnAqUgCRarailEEaHuDkmh1T2fWOQeB_IA-auW5I/https/i.imgur.com/gFHBoZA.png', 'icon_url': 'https://i.imgur.com/gFHBoZA.png'}, 'description': 'Enqueued `7 Riddles That Will Test Your Brain Power` to be played. Position in queue: 1 - estimated time until playing: 0:04:16', 'color': 7506394, 'author': {'url': 'https://github.com/Just-Some-Bots/MusicBot', 'name': 'okapi-music'}}], 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:11:45,154:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:11:45,155:DEBUG:discord.client: Dispatching event message_edit
+2018-04-29 19:11:48,237:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047108237
+2018-04-29 19:11:48,247:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047108237}
+2018-04-29 19:11:48,605:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:11:48,605:DEBUG:discord.gateway: WebSocket Event: {'t': 'PRESENCE_UPDATE', 's': 24, 'op': 0, 'd': {'user': {'id': '293731150239891456'}, 'status': 'online', 'roles': ['417131053187334164', '420321229283786763'], 'nick': 'ndeogj embed', 'guild_id': '408203316250542082', 'game': {'type': 0, 'name': '>help • 1747 widgets'}}}
+2018-04-29 19:11:48,605:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:11:48,606:DEBUG:discord.client: Dispatching event member_update
+2018-04-29 19:11:53,741:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047113741
+2018-04-29 19:11:53,751:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047113741}
+2018-04-29 19:11:59,245:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047119245
+2018-04-29 19:11:59,255:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047119245}
+2018-04-29 19:11:59,924:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:11:59,924:DEBUG:discord.gateway: WebSocket Event: {'t': 'PRESENCE_UPDATE', 's': 25, 'op': 0, 'd': {'user': {'id': '198681707677745154'}, 'status': 'idle', 'roles': ['417363402890149918'], 'nick': None, 'guild_id': '408203316250542082', 'game': {'type': 2, 'timestamps': {'start': 1525047120072, 'end': 1525047318072}, 'sync_id': '5EV4bGHxVN0kHpcAFvgnTt', 'state': 'boy pablo', 'session_id': '8bfca764a03e533f78cfc9b0b432bb6e', 'party': {'id': 'spotify:198681707677745154'}, 'name': 'Spotify', 'flags': 48, 'details': 'Dance, Baby!', 'assets': {'large_text': 'Roy Pablo', 'large_image': 'spotify:dc10995423039fae7245c11ca3a108b8268494a7'}}}}
+2018-04-29 19:11:59,924:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:11:59,925:DEBUG:discord.client: Dispatching event member_update
+2018-04-29 19:12:04,751:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047124751
+2018-04-29 19:12:04,761:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047124751}
+2018-04-29 19:12:10,255:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047130255
+2018-04-29 19:12:10,266:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047130255}
+2018-04-29 19:12:15,203:DEBUG:discord.http: DELETE https://discordapp.com/api/v6/channels/416029196750422017/messages/440304213495382037 with None has returned 204
+2018-04-29 19:12:15,203:DEBUG:discord.http: DELETE https://discordapp.com/api/v6/channels/416029196750422017/messages/440304213495382037 has received 
+2018-04-29 19:12:15,213:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:12:15,213:DEBUG:discord.gateway: WebSocket Event: {'t': 'MESSAGE_DELETE', 's': 26, 'op': 0, 'd': {'id': '440304213495382037', 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:12:15,213:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:12:15,213:DEBUG:discord.client: Dispatching event message_delete
+2018-04-29 19:12:15,764:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047135764
+2018-04-29 19:12:15,772:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047135764}
+2018-04-29 19:12:18,838:DEBUG:discord.gateway: Keeping websocket alive with sequence 26
+2018-04-29 19:12:18,901:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:12:18,902:DEBUG:discord.gateway: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2018-04-29 19:12:18,902:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:12:21,270:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047141270
+2018-04-29 19:12:21,279:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047141270}
+2018-04-29 19:12:26,775:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047146775
+2018-04-29 19:12:26,784:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047146775}
+2018-04-29 19:12:32,279:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047152279
+2018-04-29 19:12:32,289:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047152279}
+2018-04-29 19:12:35,116:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:12:35,116:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 27, 'op': 0, 'd': {'user_id': '236614912284033024', 'timestamp': 1525047155, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:12:35,116:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:12:35,117:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:12:37,605:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:12:37,605:DEBUG:discord.gateway: WebSocket Event: {'t': 'MESSAGE_CREATE', 's': 28, 'op': 0, 'd': {'type': 0, 'tts': False, 'timestamp': '2018-04-30T00:12:37.507000+00:00', 'pinned': False, 'nonce': '440304433880891392', 'mentions': [], 'mention_roles': [], 'mention_everyone': False, 'id': '440304433918902284', 'embeds': [], 'edited_timestamp': None, 'content': 'F.play spotify:user:h9g0kh497ozr7jtedcax251du:playlist:4iqDqQiCahoFbXkqRbNoSS', 'channel_id': '416029196750422017', 'author': {'username': 'Just An Okapi', 'id': '236614912284033024', 'discriminator': '8112', 'avatar': 'ad1309129aaa3c6327a534c9a7e85303'}, 'attachments': [], 'guild_id': '408203316250542082'}}
+2018-04-29 19:12:37,605:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:12:37,606:DEBUG:discord.client: Dispatching event message
+2018-04-29 19:12:37,662:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:12:37,662:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:12:37,675:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:12:37,675:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 29, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047157, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:12:37,676:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:12:37,676:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:12:37,782:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047157782
+2018-04-29 19:12:37,799:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047157782}
+2018-04-29 19:12:37,979:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/messages with {"content":"Processing playlist `Prototyperaptor`"} has returned 200
+2018-04-29 19:12:37,980:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/messages has received {'nonce': None, 'attachments': [], 'tts': False, 'embeds': [], 'timestamp': '2018-04-30T00:12:37.941000+00:00', 'mention_everyone': False, 'id': '440304435739230208', 'pinned': False, 'edited_timestamp': None, 'author': {'username': 'okapi-music', 'discriminator': '2233', 'bot': True, 'id': '440299421104734228', 'avatar': None}, 'mention_roles': [], 'content': 'Processing playlist `Prototyperaptor`', 'channel_id': '416029196750422017', 'mentions': [], 'type': 0}
+2018-04-29 19:12:37,982:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:12:37,983:DEBUG:discord.gateway: WebSocket Event: {'t': 'MESSAGE_CREATE', 's': 30, 'op': 0, 'd': {'type': 0, 'tts': False, 'timestamp': '2018-04-30T00:12:37.941000+00:00', 'pinned': False, 'nonce': None, 'mentions': [], 'mention_roles': [], 'mention_everyone': False, 'id': '440304435739230208', 'embeds': [], 'edited_timestamp': None, 'content': 'Processing playlist `Prototyperaptor`', 'channel_id': '416029196750422017', 'author': {'username': 'okapi-music', 'id': '440299421104734228', 'discriminator': '2233', 'bot': True, 'avatar': None}, 'attachments': [], 'guild_id': '408203316250542082'}}
+2018-04-29 19:12:37,983:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:12:37,984:DEBUG:discord.client: Dispatching event message
+2018-04-29 19:12:38,045:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:12:38,045:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:12:38,059:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:12:38,059:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 31, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047158, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:12:38,060:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:12:38,060:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:12:41,676:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:12:41,677:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:12:41,686:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:12:41,687:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 32, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047161, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:12:41,687:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:12:41,687:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:12:43,289:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047163288
+2018-04-29 19:12:43,299:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047163288}
+2018-04-29 19:12:45,105:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:12:45,105:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:12:45,120:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:12:45,121:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 33, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047165, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:12:45,121:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:12:45,122:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:12:47,814:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:12:47,815:DEBUG:discord.gateway: WebSocket Event: {'t': 'PRESENCE_UPDATE', 's': 34, 'op': 0, 'd': {'user': {'id': '293731150239891456'}, 'status': 'online', 'roles': ['417131053187334164', '420321229283786763'], 'nick': 'ndeogj embed', 'guild_id': '408203316250542082', 'game': {'type': 0, 'name': '>help • 1930 guilds'}}}
+2018-04-29 19:12:47,815:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:12:47,815:DEBUG:discord.client: Dispatching event member_update
+2018-04-29 19:12:48,296:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:12:48,297:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:12:48,311:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:12:48,312:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 35, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047168, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:12:48,312:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:12:48,313:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:12:48,792:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047168792
+2018-04-29 19:12:48,803:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047168792}
+2018-04-29 19:12:52,283:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:12:52,284:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:12:52,297:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:12:52,298:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 36, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047172, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:12:52,298:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:12:52,299:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:12:54,299:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047174298
+2018-04-29 19:12:54,310:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047174298}
+2018-04-29 19:12:55,732:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:12:55,732:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:12:55,744:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:12:55,744:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 37, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047175, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:12:55,744:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:12:55,745:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:12:59,145:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:12:59,145:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:12:59,156:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:12:59,157:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 38, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047179, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:12:59,157:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:12:59,157:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:12:59,805:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047179805
+2018-04-29 19:12:59,815:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047179805}
+2018-04-29 19:13:00,089:DEBUG:discord.gateway: Keeping websocket alive with sequence 38
+2018-04-29 19:13:00,150:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:13:00,151:DEBUG:discord.gateway: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2018-04-29 19:13:00,151:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:13:02,696:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:13:02,696:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:13:02,717:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:13:02,717:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 39, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047182, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:13:02,717:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:13:02,718:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:13:05,308:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047185308
+2018-04-29 19:13:05,318:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047185308}
+2018-04-29 19:13:06,181:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:13:06,181:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:13:06,194:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:13:06,194:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 40, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047186, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:13:06,194:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:13:06,194:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:13:09,481:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:13:09,481:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:13:09,494:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:13:09,495:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 41, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047189, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:13:09,495:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:13:09,495:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:13:10,812:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047190811
+2018-04-29 19:13:10,821:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047190811}
+2018-04-29 19:13:13,168:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:13:13,168:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 42, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047193, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:13:13,168:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:13:13,169:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:13:13,186:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:13:13,186:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:13:16,314:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047196314
+2018-04-29 19:13:16,324:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047196314}
+2018-04-29 19:13:16,723:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:13:16,724:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:13:16,727:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:13:16,731:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 43, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047196, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:13:16,731:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:13:16,731:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:13:20,190:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:13:20,190:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:13:20,201:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:13:20,201:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 44, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047200, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:13:20,202:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:13:20,202:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:13:21,818:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047201818
+2018-04-29 19:13:21,828:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047201818}
+2018-04-29 19:13:24,322:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:13:24,323:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:13:24,336:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:13:24,336:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 45, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047204, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:13:24,336:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:13:24,336:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:13:27,322:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047207322
+2018-04-29 19:13:27,332:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047207322}
+2018-04-29 19:13:28,368:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:13:28,369:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:13:28,389:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:13:28,390:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 46, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047208, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:13:28,391:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:13:28,391:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:13:31,502:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:13:31,502:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:13:31,518:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:13:31,519:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 47, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047211, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:13:31,519:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:13:31,519:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:13:32,827:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047212827
+2018-04-29 19:13:32,837:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047212827}
+2018-04-29 19:13:35,080:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:13:35,080:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:13:35,094:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:13:35,094:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 48, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047215, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:13:35,094:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:13:35,095:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:13:38,330:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047218330
+2018-04-29 19:13:38,339:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047218330}
+2018-04-29 19:13:38,376:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:13:38,376:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:13:38,390:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:13:38,390:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 49, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047218, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:13:38,390:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:13:38,391:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:13:41,349:DEBUG:discord.gateway: Keeping websocket alive with sequence 49
+2018-04-29 19:13:41,427:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:13:41,427:DEBUG:discord.gateway: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2018-04-29 19:13:41,427:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:13:41,435:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:13:41,436:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 50, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047221, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:13:41,436:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:13:41,436:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:13:41,440:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:13:41,441:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:13:43,834:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047223834
+2018-04-29 19:13:43,843:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047223834}
+2018-04-29 19:13:45,250:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:13:45,250:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:13:45,283:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:13:45,283:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 51, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047225, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:13:45,283:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:13:45,283:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:13:47,721:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:13:47,721:DEBUG:discord.gateway: WebSocket Event: {'t': 'PRESENCE_UPDATE', 's': 52, 'op': 0, 'd': {'user': {'id': '293731150239891456'}, 'status': 'online', 'roles': ['417131053187334164', '420321229283786763'], 'nick': 'ndeogj embed', 'guild_id': '408203316250542082', 'game': {'type': 0, 'name': '>help • 1747 widgets'}}}
+2018-04-29 19:13:47,721:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:13:47,722:DEBUG:discord.client: Dispatching event member_update
+2018-04-29 19:13:48,534:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:13:48,535:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:13:48,550:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:13:48,550:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 53, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047228, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:13:48,550:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:13:48,551:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:13:49,339:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047229339
+2018-04-29 19:13:49,349:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047229339}
+2018-04-29 19:13:51,846:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:13:51,847:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:13:51,861:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:13:51,861:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 54, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047231, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:13:51,861:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:13:51,861:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:13:54,842:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047234841
+2018-04-29 19:13:54,851:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047234841}
+2018-04-29 19:13:55,161:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:13:55,161:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:13:55,175:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:13:55,175:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 55, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047235, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:13:55,175:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:13:55,176:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:13:58,567:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:13:58,567:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:13:58,584:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:13:58,584:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 56, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047238, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:13:58,585:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:13:58,585:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:14:00,346:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047240345
+2018-04-29 19:14:00,356:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047240345}
+2018-04-29 19:14:02,343:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:14:02,343:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:14:02,361:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:14:02,361:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 57, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047242, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:14:02,362:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:14:02,362:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:14:05,848:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047245848
+2018-04-29 19:14:05,858:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047245848}
+2018-04-29 19:14:07,072:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:14:07,073:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:14:07,091:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:14:07,091:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 58, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047247, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:14:07,091:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:14:07,092:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:14:10,408:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:14:10,408:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:14:10,425:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:14:10,426:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 59, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047250, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:14:10,426:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:14:10,426:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:14:11,351:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047251351
+2018-04-29 19:14:11,361:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047251351}
+2018-04-29 19:14:13,339:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:14:13,339:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:14:13,356:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:14:13,356:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 60, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047253, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:14:13,357:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:14:13,357:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:14:16,560:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:14:16,560:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:14:16,579:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:14:16,579:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 61, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047256, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:14:16,579:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:14:16,579:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:14:16,856:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047256856
+2018-04-29 19:14:16,866:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047256856}
+2018-04-29 19:14:20,093:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:14:20,094:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:14:20,111:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:14:20,112:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 62, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047260, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:14:20,112:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:14:20,112:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:14:22,362:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047262362
+2018-04-29 19:14:22,372:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047262362}
+2018-04-29 19:14:22,618:DEBUG:discord.gateway: Keeping websocket alive with sequence 62
+2018-04-29 19:14:22,679:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:14:22,679:DEBUG:discord.gateway: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2018-04-29 19:14:22,679:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:14:23,521:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:14:23,522:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:14:23,534:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:14:23,534:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 63, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047263, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:14:23,535:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:14:23,535:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:14:26,735:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:14:26,736:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:14:26,744:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:14:26,745:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 64, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047266, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:14:26,745:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:14:26,745:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:14:27,865:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047267865
+2018-04-29 19:14:27,875:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047267865}
+2018-04-29 19:14:28,906:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:14:28,912:DEBUG:discord.gateway: WebSocket Event: {'t': 'PRESENCE_UPDATE', 's': 65, 'op': 0, 'd': {'user': {'username': '~ᴅᴇꜱᴩᴀᴄɪᴛᴏ~', 'id': '355904428563365898', 'discriminator': '4609', 'avatar': '3f01890f0b653c053974613234c7b6e8'}, 'status': 'online', 'roles': ['417363402890149918'], 'nick': None, 'guild_id': '408203316250542082', 'game': None}}
+2018-04-29 19:14:28,926:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:14:28,927:DEBUG:discord.client: Dispatching event member_update
+2018-04-29 19:14:29,862:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:14:29,863:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:14:29,874:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:14:29,874:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 66, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047269, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:14:29,874:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:14:29,874:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:14:33,232:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:14:33,232:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:14:33,241:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:14:33,242:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 67, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047273, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:14:33,242:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:14:33,243:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:14:33,369:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047273369
+2018-04-29 19:14:33,379:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047273369}
+2018-04-29 19:14:36,332:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:14:36,332:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:14:36,353:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:14:36,353:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 68, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047276, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:14:36,354:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:14:36,354:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:14:38,875:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047278875
+2018-04-29 19:14:38,885:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047278875}
+2018-04-29 19:14:39,905:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:14:39,906:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:14:39,922:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:14:39,922:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 69, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047279, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:14:39,923:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:14:39,923:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:14:44,380:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047284380
+2018-04-29 19:14:44,390:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047284380}
+2018-04-29 19:14:47,817:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:14:47,818:DEBUG:discord.gateway: WebSocket Event: {'t': 'PRESENCE_UPDATE', 's': 70, 'op': 0, 'd': {'user': {'id': '293731150239891456'}, 'status': 'online', 'roles': ['417131053187334164', '420321229283786763'], 'nick': 'ndeogj embed', 'guild_id': '408203316250542082', 'game': {'type': 0, 'name': '>help • 1930 guilds'}}}
+2018-04-29 19:14:47,818:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:14:47,818:DEBUG:discord.client: Dispatching event member_update
+2018-04-29 19:14:49,885:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047289885
+2018-04-29 19:14:49,894:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047289885}
+2018-04-29 19:14:55,391:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047295391
+2018-04-29 19:14:55,401:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047295391}
+2018-04-29 19:15:00,896:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047300895
+2018-04-29 19:15:00,905:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047300895}
+2018-04-29 19:15:03,869:DEBUG:discord.gateway: Keeping websocket alive with sequence 70
+2018-04-29 19:15:03,931:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:15:03,931:DEBUG:discord.gateway: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2018-04-29 19:15:03,931:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:15:06,400:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047306400
+2018-04-29 19:15:06,409:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047306400}
+2018-04-29 19:15:11,905:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047311905
+2018-04-29 19:15:11,915:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047311905}
+2018-04-29 19:15:17,407:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047317407
+2018-04-29 19:15:17,417:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047317407}
+2018-04-29 19:15:18,425:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:15:18,426:DEBUG:discord.gateway: WebSocket Event: {'t': 'PRESENCE_UPDATE', 's': 71, 'op': 0, 'd': {'user': {'id': '198681707677745154'}, 'status': 'idle', 'roles': ['417363402890149918'], 'nick': None, 'guild_id': '408203316250542082', 'game': {'type': 2, 'timestamps': {'start': 1525047318757, 'end': 1525047482557}, 'sync_id': '5LI7PoHEolR8plrf3I16sq', 'state': 'Jimi Hendrix', 'session_id': '8bfca764a03e533f78cfc9b0b432bb6e', 'party': {'id': 'spotify:198681707677745154'}, 'name': 'Spotify', 'flags': 48, 'details': 'Fire', 'assets': {'large_text': 'Are You Experienced', 'large_image': 'spotify:1d55f445789ed89a1b8fab09c3dad117afb5fe80'}}}}
+2018-04-29 19:15:18,426:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:15:18,426:DEBUG:discord.client: Dispatching event member_update
+2018-04-29 19:15:22,912:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047322912
+2018-04-29 19:15:22,967:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047322912}
+2018-04-29 19:15:24,064:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:15:24,065:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:15:24,073:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:15:24,073:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 72, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047324, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:15:24,073:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:15:24,073:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:15:27,346:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:15:27,346:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:15:27,361:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:15:27,362:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 73, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047327, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:15:27,362:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:15:27,362:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:15:28,452:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047328452
+2018-04-29 19:15:28,461:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047328452}
+2018-04-29 19:15:30,516:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:15:30,517:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:15:30,526:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:15:30,527:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 74, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047330, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:15:30,527:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:15:30,527:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:15:33,955:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:15:33,955:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:15:33,960:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047333960
+2018-04-29 19:15:33,976:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:15:33,977:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 75, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047333, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:15:33,978:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:15:33,978:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:15:33,979:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047333960}
+2018-04-29 19:15:37,776:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:15:37,776:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:15:37,785:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:15:37,786:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 76, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047337, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:15:37,786:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:15:37,786:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:15:39,473:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047339473
+2018-04-29 19:15:39,484:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047339473}
+2018-04-29 19:15:41,402:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:15:41,402:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:15:41,415:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:15:41,415:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 77, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047341, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:15:41,416:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:15:41,416:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:15:42,852:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:15:42,852:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 78, 'op': 0, 'd': {'user_id': '236614912284033024', 'timestamp': 1525047342, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:15:42,852:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:15:42,852:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:15:44,521:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:15:44,521:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:15:44,533:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:15:44,533:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 79, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047344, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:15:44,533:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:15:44,533:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:15:44,979:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047344979
+2018-04-29 19:15:44,980:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:15:44,981:DEBUG:discord.gateway: WebSocket Event: {'t': 'MESSAGE_CREATE', 's': 80, 'op': 0, 'd': {'type': 0, 'tts': False, 'timestamp': '2018-04-30T00:15:44.935000+00:00', 'pinned': False, 'nonce': '440305219780214784', 'mentions': [], 'mention_roles': [], 'mention_everyone': False, 'id': '440305220048650250', 'embeds': [], 'edited_timestamp': None, 'content': 'F.help', 'channel_id': '416029196750422017', 'author': {'username': 'Just An Okapi', 'id': '236614912284033024', 'discriminator': '8112', 'avatar': 'ad1309129aaa3c6327a534c9a7e85303'}, 'attachments': [], 'guild_id': '408203316250542082'}}
+2018-04-29 19:15:44,981:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:15:44,981:DEBUG:discord.client: Dispatching event message
+2018-04-29 19:15:44,989:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047344979}
+2018-04-29 19:15:45,078:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:15:45,078:DEBUG:discord.gateway: WebSocket Event: {'t': 'MESSAGE_CREATE', 's': 81, 'op': 0, 'd': {'type': 0, 'tts': False, 'timestamp': '2018-04-30T00:15:45.028000+00:00', 'pinned': False, 'nonce': None, 'mentions': [], 'mention_roles': [], 'mention_everyone': False, 'id': '440305220438982656', 'embeds': [{'type': 'rich', 'title': 'help', 'footer': {'text': 'Just-Some-Bots/MusicBot (1.9.7)', 'proxy_icon_url': 'https://images-ext-2.discordapp.net/external/5pzmnAqUgCRarailEEaHuDkmh1T2fWOQeB_IA-auW5I/https/i.imgur.com/gFHBoZA.png', 'icon_url': 'https://i.imgur.com/gFHBoZA.png'}, 'description': '<@236614912284033024> ```\nF.blacklist, F.clean, F.clear, F.disconnect, F.help, F.id, F.joinserver, F.karaoke, F.leaveserver, F.listids, F.np, F.option, F.pause, F.perms, F.play, F.pldump, F.queue, F.remove, F.resetplaylist, F.restart, F.resume, F.save, F.search, F.setavatar, F.setname, F.setnick, F.shuffle, F.shutdown, F.skip, F.stream, F.summon, F.volume\n```\nFor information about a particular command, run `F.help [command]`\nFor further help, see https://just-some-bots.github.io/MusicBot/\nOnly showing commands you can use, for a list of all commands, run `F.help all`', 'color': 7506394, 'author': {'url': 'https://github.com/Just-Some-Bots/MusicBot', 'name': 'okapi-music'}}], 'edited_timestamp': None, 'content': '', 'channel_id': '416029196750422017', 'author': {'username': 'okapi-music', 'id': '440299421104734228', 'discriminator': '2233', 'bot': True, 'avatar': None}, 'attachments': [], 'guild_id': '408203316250542082'}}
+2018-04-29 19:15:45,079:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:15:45,079:DEBUG:discord.client: Dispatching event message
+2018-04-29 19:15:45,087:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/messages with {"embed":{"footer":{"text":"Just-Some-Bots/MusicBot (1.9.7)","icon_url":"https://i.imgur.com/gFHBoZA.png"},"author":{"name":"okapi-music","url":"https://github.com/Just-Some-Bots/MusicBot","icon_url":""},"color":7506394,"type":"rich","description":"<@236614912284033024> ```\nF.blacklist, F.clean, F.clear, F.disconnect, F.help, F.id, F.joinserver, F.karaoke, F.leaveserver, F.listids, F.np, F.option, F.pause, F.perms, F.play, F.pldump, F.queue, F.remove, F.resetplaylist, F.restart, F.resume, F.save, F.search, F.setavatar, F.setname, F.setnick, F.shuffle, F.shutdown, F.skip, F.stream, F.summon, F.volume\n```\nFor information about a particular command, run `F.help [command]`\nFor further help, see https://just-some-bots.github.io/MusicBot/\nOnly showing commands you can use, for a list of all commands, run `F.help all`","title":"help"}} has returned 200
+2018-04-29 19:15:45,088:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/messages has received {'nonce': None, 'attachments': [], 'tts': False, 'embeds': [{'description': '<@236614912284033024> ```\nF.blacklist, F.clean, F.clear, F.disconnect, F.help, F.id, F.joinserver, F.karaoke, F.leaveserver, F.listids, F.np, F.option, F.pause, F.perms, F.play, F.pldump, F.queue, F.remove, F.resetplaylist, F.restart, F.resume, F.save, F.search, F.setavatar, F.setname, F.setnick, F.shuffle, F.shutdown, F.skip, F.stream, F.summon, F.volume\n```\nFor information about a particular command, run `F.help [command]`\nFor further help, see https://just-some-bots.github.io/MusicBot/\nOnly showing commands you can use, for a list of all commands, run `F.help all`', 'footer': {'text': 'Just-Some-Bots/MusicBot (1.9.7)', 'proxy_icon_url': 'https://images-ext-2.discordapp.net/external/5pzmnAqUgCRarailEEaHuDkmh1T2fWOQeB_IA-auW5I/https/i.imgur.com/gFHBoZA.png', 'icon_url': 'https://i.imgur.com/gFHBoZA.png'}, 'color': 7506394, 'author': {'url': 'https://github.com/Just-Some-Bots/MusicBot', 'name': 'okapi-music'}, 'title': 'help', 'type': 'rich'}], 'timestamp': '2018-04-30T00:15:45.028000+00:00', 'mention_everyone': False, 'id': '440305220438982656', 'pinned': False, 'edited_timestamp': None, 'author': {'username': 'okapi-music', 'discriminator': '2233', 'bot': True, 'id': '440299421104734228', 'avatar': None}, 'mention_roles': [], 'content': '', 'channel_id': '416029196750422017', 'mentions': [], 'type': 0}
+2018-04-29 19:15:45,123:DEBUG:discord.gateway: Keeping websocket alive with sequence 81
+2018-04-29 19:15:45,132:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:15:45,133:DEBUG:discord.gateway: WebSocket Event: {'t': 'MESSAGE_UPDATE', 's': 82, 'op': 0, 'd': {'id': '440305220438982656', 'embeds': [{'type': 'rich', 'title': 'help', 'footer': {'text': 'Just-Some-Bots/MusicBot (1.9.7)', 'proxy_icon_url': 'https://images-ext-2.discordapp.net/external/5pzmnAqUgCRarailEEaHuDkmh1T2fWOQeB_IA-auW5I/https/i.imgur.com/gFHBoZA.png', 'icon_url': 'https://i.imgur.com/gFHBoZA.png'}, 'description': '<@236614912284033024> ```\nF.blacklist, F.clean, F.clear, F.disconnect, F.help, F.id, F.joinserver, F.karaoke, F.leaveserver, F.listids, F.np, F.option, F.pause, F.perms, F.play, F.pldump, F.queue, F.remove, F.resetplaylist, F.restart, F.resume, F.save, F.search, F.setavatar, F.setname, F.setnick, F.shuffle, F.shutdown, F.skip, F.stream, F.summon, F.volume\n```\nFor information about a particular command, run `F.help [command]`\nFor further help, see https://just-some-bots.github.io/MusicBot/\nOnly showing commands you can use, for a list of all commands, run `F.help all`', 'color': 7506394, 'author': {'url': 'https://github.com/Just-Some-Bots/MusicBot', 'name': 'okapi-music'}}], 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:15:45,133:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:15:45,134:DEBUG:discord.client: Dispatching event message_edit
+2018-04-29 19:15:45,187:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:15:45,187:DEBUG:discord.gateway: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2018-04-29 19:15:45,187:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:15:47,764:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:15:47,765:DEBUG:discord.gateway: WebSocket Event: {'t': 'PRESENCE_UPDATE', 's': 83, 'op': 0, 'd': {'user': {'id': '293731150239891456'}, 'status': 'online', 'roles': ['417131053187334164', '420321229283786763'], 'nick': 'ndeogj embed', 'guild_id': '408203316250542082', 'game': {'type': 0, 'name': '>help • 1747 widgets'}}}
+2018-04-29 19:15:47,765:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:15:47,765:DEBUG:discord.client: Dispatching event member_update
+2018-04-29 19:15:48,039:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:15:48,039:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:15:48,051:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:15:48,051:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 84, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047348, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:15:48,051:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:15:48,051:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:15:50,484:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047350484
+2018-04-29 19:15:50,494:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047350484}
+2018-04-29 19:15:51,320:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:15:51,320:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:15:51,341:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:15:51,341:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 85, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047351, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:15:51,342:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:15:51,342:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:15:54,364:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:15:54,365:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:15:54,377:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:15:54,377:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 86, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047354, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:15:54,377:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:15:54,377:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:15:55,987:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047355987
+2018-04-29 19:15:55,997:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047355987}
+2018-04-29 19:15:57,631:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:15:57,631:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:15:57,646:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:15:57,646:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 87, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047357, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:15:57,646:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:15:57,646:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:16:00,734:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:16:00,735:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:16:00,779:DEBUG:discord.gateway: Sending "{"op":3,"d":{"game":{"name":"7 Riddles That Will Test Your Brain Power","type":0},"afk":false,"since":0.0,"status":"online"}}" to change status
+2018-04-29 19:16:00,785:DEBUG:discord.client: Dispatching event socket_raw_send
+2018-04-29 19:16:00,801:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:16:00,802:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 88, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047360, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:16:00,802:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:16:00,803:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:16:00,917:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/messages with {"content":"<@236614912284033024> - your song `7 Riddles That Will Test Your Brain Power` is now playing in `Music`!"} has returned 200
+2018-04-29 19:16:00,918:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/messages has received {'nonce': None, 'attachments': [], 'tts': False, 'embeds': [], 'timestamp': '2018-04-30T00:16:00.858000+00:00', 'mention_everyone': False, 'id': '440305286834814977', 'pinned': False, 'edited_timestamp': None, 'author': {'username': 'okapi-music', 'discriminator': '2233', 'bot': True, 'id': '440299421104734228', 'avatar': None}, 'mention_roles': [], 'content': '<@236614912284033024> - your song `7 Riddles That Will Test Your Brain Power` is now playing in `Music`!', 'channel_id': '416029196750422017', 'mentions': [{'username': 'Just An Okapi', 'discriminator': '8112', 'id': '236614912284033024', 'avatar': 'ad1309129aaa3c6327a534c9a7e85303'}], 'type': 0}
+2018-04-29 19:16:00,919:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:16:00,920:DEBUG:discord.gateway: WebSocket Event: {'t': 'MESSAGE_CREATE', 's': 89, 'op': 0, 'd': {'type': 0, 'tts': False, 'timestamp': '2018-04-30T00:16:00.858000+00:00', 'pinned': False, 'nonce': None, 'mentions': [{'username': 'Just An Okapi', 'id': '236614912284033024', 'discriminator': '8112', 'avatar': 'ad1309129aaa3c6327a534c9a7e85303'}], 'mention_roles': [], 'mention_everyone': False, 'id': '440305286834814977', 'embeds': [], 'edited_timestamp': None, 'content': '<@236614912284033024> - your song `7 Riddles That Will Test Your Brain Power` is now playing in `Music`!', 'channel_id': '416029196750422017', 'author': {'username': 'okapi-music', 'id': '440299421104734228', 'discriminator': '2233', 'bot': True, 'avatar': None}, 'attachments': [], 'guild_id': '408203316250542082'}}
+2018-04-29 19:16:00,920:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:16:00,920:DEBUG:discord.client: Dispatching event message
+2018-04-29 19:16:01,493:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047361493
+2018-04-29 19:16:01,503:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047361493}
+2018-04-29 19:16:03,799:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:16:03,800:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:16:03,810:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:16:03,810:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 90, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047363, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:16:03,810:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:16:03,810:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:16:06,998:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047366998
+2018-04-29 19:16:07,007:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047366998}
+2018-04-29 19:16:08,224:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:16:08,224:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:16:08,237:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:16:08,238:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 91, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047368, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:16:08,238:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:16:08,239:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:16:11,421:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:16:11,421:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:16:11,421:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:16:11,424:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 92, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047371, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:16:11,425:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:16:11,425:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:16:12,503:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047372503
+2018-04-29 19:16:12,513:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047372503}
+2018-04-29 19:16:13,417:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:16:13,417:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 93, 'op': 0, 'd': {'user_id': '236614912284033024', 'timestamp': 1525047373, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:16:13,417:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:16:13,417:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:16:15,610:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:16:15,610:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:16:15,624:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:16:15,627:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 94, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047375, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:16:15,627:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:16:15,627:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:16:16,608:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:16:16,608:DEBUG:discord.gateway: WebSocket Event: {'t': 'MESSAGE_CREATE', 's': 95, 'op': 0, 'd': {'type': 0, 'tts': False, 'timestamp': '2018-04-30T00:16:16.562000+00:00', 'pinned': False, 'nonce': '440305352479604736', 'mentions': [], 'mention_roles': [], 'mention_everyone': False, 'id': '440305352701902848', 'embeds': [], 'edited_timestamp': None, 'content': 'F.skip', 'channel_id': '416029196750422017', 'author': {'username': 'Just An Okapi', 'id': '236614912284033024', 'discriminator': '8112', 'avatar': 'ad1309129aaa3c6327a534c9a7e85303'}, 'attachments': [], 'guild_id': '408203316250542082'}}
+2018-04-29 19:16:16,608:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:16:16,608:DEBUG:discord.client: Dispatching event message
+2018-04-29 19:16:16,642:DEBUG:discord.gateway: Sending "{"op":3,"d":{"game":{"name":"PrototypeRaptor - New Dawn","type":0},"afk":false,"since":0.0,"status":"online"}}" to change status
+2018-04-29 19:16:16,642:DEBUG:discord.client: Dispatching event socket_raw_send
+2018-04-29 19:16:16,690:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/messages with {"embed":{"footer":{"text":"Just-Some-Bots/MusicBot (1.9.7)","icon_url":"https://i.imgur.com/gFHBoZA.png"},"author":{"name":"okapi-music","url":"https://github.com/Just-Some-Bots/MusicBot","icon_url":""},"color":7506394,"type":"rich","description":"<@236614912284033024> Your skip for `7 Riddles That Will Test Your Brain Power` was acknowledged.\nThe vote to skip has been passed. Next song coming up!","title":"skip"}} has returned 200
+2018-04-29 19:16:16,691:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/messages has received {'nonce': None, 'attachments': [], 'tts': False, 'embeds': [{'description': '<@236614912284033024> Your skip for `7 Riddles That Will Test Your Brain Power` was acknowledged.\nThe vote to skip has been passed. Next song coming up!', 'footer': {'text': 'Just-Some-Bots/MusicBot (1.9.7)', 'proxy_icon_url': 'https://images-ext-2.discordapp.net/external/5pzmnAqUgCRarailEEaHuDkmh1T2fWOQeB_IA-auW5I/https/i.imgur.com/gFHBoZA.png', 'icon_url': 'https://i.imgur.com/gFHBoZA.png'}, 'color': 7506394, 'author': {'url': 'https://github.com/Just-Some-Bots/MusicBot', 'name': 'okapi-music'}, 'title': 'skip', 'type': 'rich'}], 'timestamp': '2018-04-30T00:16:16.585000+00:00', 'mention_everyone': False, 'id': '440305352798502913', 'pinned': False, 'edited_timestamp': None, 'author': {'username': 'okapi-music', 'discriminator': '2233', 'bot': True, 'id': '440299421104734228', 'avatar': None}, 'mention_roles': [], 'content': '', 'channel_id': '416029196750422017', 'mentions': [], 'type': 0}
+2018-04-29 19:16:16,693:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:16:16,694:DEBUG:discord.gateway: WebSocket Event: {'t': 'MESSAGE_CREATE', 's': 96, 'op': 0, 'd': {'type': 0, 'tts': False, 'timestamp': '2018-04-30T00:16:16.585000+00:00', 'pinned': False, 'nonce': None, 'mentions': [], 'mention_roles': [], 'mention_everyone': False, 'id': '440305352798502913', 'embeds': [{'type': 'rich', 'title': 'skip', 'footer': {'text': 'Just-Some-Bots/MusicBot (1.9.7)', 'proxy_icon_url': 'https://images-ext-2.discordapp.net/external/5pzmnAqUgCRarailEEaHuDkmh1T2fWOQeB_IA-auW5I/https/i.imgur.com/gFHBoZA.png', 'icon_url': 'https://i.imgur.com/gFHBoZA.png'}, 'description': '<@236614912284033024> Your skip for `7 Riddles That Will Test Your Brain Power` was acknowledged.\nThe vote to skip has been passed. Next song coming up!', 'color': 7506394, 'author': {'url': 'https://github.com/Just-Some-Bots/MusicBot', 'name': 'okapi-music'}}], 'edited_timestamp': None, 'content': '', 'channel_id': '416029196750422017', 'author': {'username': 'okapi-music', 'id': '440299421104734228', 'discriminator': '2233', 'bot': True, 'avatar': None}, 'attachments': [], 'guild_id': '408203316250542082'}}
+2018-04-29 19:16:16,695:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:16:16,696:DEBUG:discord.client: Dispatching event message
+2018-04-29 19:16:16,733:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:16:16,733:DEBUG:discord.gateway: WebSocket Event: {'t': 'MESSAGE_UPDATE', 's': 97, 'op': 0, 'd': {'id': '440305352798502913', 'embeds': [{'type': 'rich', 'title': 'skip', 'footer': {'text': 'Just-Some-Bots/MusicBot (1.9.7)', 'proxy_icon_url': 'https://images-ext-2.discordapp.net/external/5pzmnAqUgCRarailEEaHuDkmh1T2fWOQeB_IA-auW5I/https/i.imgur.com/gFHBoZA.png', 'icon_url': 'https://i.imgur.com/gFHBoZA.png'}, 'description': '<@236614912284033024> Your skip for `7 Riddles That Will Test Your Brain Power` was acknowledged.\nThe vote to skip has been passed. Next song coming up!', 'color': 7506394, 'author': {'url': 'https://github.com/Just-Some-Bots/MusicBot', 'name': 'okapi-music'}}], 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:16:16,734:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:16:16,734:DEBUG:discord.client: Dispatching event message_edit
+2018-04-29 19:16:16,765:DEBUG:discord.http: GET https://discordapp.com/api/v6/channels/416029196750422017/messages with None has returned 200
+2018-04-29 19:16:16,766:DEBUG:discord.http: GET https://discordapp.com/api/v6/channels/416029196750422017/messages has received [{'attachments': [], 'tts': False, 'embeds': [{'description': '<@236614912284033024> Your skip for `7 Riddles That Will Test Your Brain Power` was acknowledged.\nThe vote to skip has been passed. Next song coming up!', 'footer': {'text': 'Just-Some-Bots/MusicBot (1.9.7)', 'proxy_icon_url': 'https://images-ext-2.discordapp.net/external/5pzmnAqUgCRarailEEaHuDkmh1T2fWOQeB_IA-auW5I/https/i.imgur.com/gFHBoZA.png', 'icon_url': 'https://i.imgur.com/gFHBoZA.png'}, 'color': 7506394, 'author': {'url': 'https://github.com/Just-Some-Bots/MusicBot', 'name': 'okapi-music'}, 'title': 'skip', 'type': 'rich'}], 'timestamp': '2018-04-30T00:16:16.585000+00:00', 'mention_everyone': False, 'id': '440305352798502913', 'pinned': False, 'edited_timestamp': None, 'author': {'username': 'okapi-music', 'discriminator': '2233', 'bot': True, 'id': '440299421104734228', 'avatar': None}, 'mention_roles': [], 'content': '', 'channel_id': '416029196750422017', 'mentions': [], 'type': 0}]
+2018-04-29 19:16:16,826:DEBUG:discord.http: DELETE https://discordapp.com/api/v6/channels/416029196750422017/messages/440305286834814977 with None has returned 204
+2018-04-29 19:16:16,827:DEBUG:discord.http: DELETE https://discordapp.com/api/v6/channels/416029196750422017/messages/440305286834814977 has received 
+2018-04-29 19:16:16,836:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:16:16,837:DEBUG:discord.gateway: WebSocket Event: {'t': 'MESSAGE_DELETE', 's': 98, 'op': 0, 'd': {'id': '440305286834814977', 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:16:16,837:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:16:16,837:DEBUG:discord.client: Dispatching event message_delete
+2018-04-29 19:16:16,921:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/messages with {"content":"<@236614912284033024> - your song `PrototypeRaptor - New Dawn` is now playing in `Music`!"} has returned 200
+2018-04-29 19:16:16,922:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/messages has received {'nonce': None, 'attachments': [], 'tts': False, 'embeds': [], 'timestamp': '2018-04-30T00:16:16.845000+00:00', 'mention_everyone': False, 'id': '440305353888890881', 'pinned': False, 'edited_timestamp': None, 'author': {'username': 'okapi-music', 'discriminator': '2233', 'bot': True, 'id': '440299421104734228', 'avatar': None}, 'mention_roles': [], 'content': '<@236614912284033024> - your song `PrototypeRaptor - New Dawn` is now playing in `Music`!', 'channel_id': '416029196750422017', 'mentions': [{'username': 'Just An Okapi', 'discriminator': '8112', 'id': '236614912284033024', 'avatar': 'ad1309129aaa3c6327a534c9a7e85303'}], 'type': 0}
+2018-04-29 19:16:16,925:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:16:16,925:DEBUG:discord.gateway: WebSocket Event: {'t': 'MESSAGE_CREATE', 's': 99, 'op': 0, 'd': {'type': 0, 'tts': False, 'timestamp': '2018-04-30T00:16:16.845000+00:00', 'pinned': False, 'nonce': None, 'mentions': [{'username': 'Just An Okapi', 'id': '236614912284033024', 'discriminator': '8112', 'avatar': 'ad1309129aaa3c6327a534c9a7e85303'}], 'mention_roles': [], 'mention_everyone': False, 'id': '440305353888890881', 'embeds': [], 'edited_timestamp': None, 'content': '<@236614912284033024> - your song `PrototypeRaptor - New Dawn` is now playing in `Music`!', 'channel_id': '416029196750422017', 'author': {'username': 'okapi-music', 'id': '440299421104734228', 'discriminator': '2233', 'bot': True, 'avatar': None}, 'attachments': [], 'guild_id': '408203316250542082'}}
+2018-04-29 19:16:16,925:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:16:16,925:DEBUG:discord.client: Dispatching event message
+2018-04-29 19:16:18,006:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047378005
+2018-04-29 19:16:18,016:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047378005}
+2018-04-29 19:16:19,376:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:16:19,377:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:16:19,392:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:16:19,393:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 100, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047379, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:16:19,393:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:16:19,393:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:16:22,457:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:16:22,458:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:16:22,473:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:16:22,473:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 101, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047382, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:16:22,473:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:16:22,474:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:16:23,513:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047383512
+2018-04-29 19:16:23,522:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047383512}
+2018-04-29 19:16:25,637:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:16:25,637:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:16:25,648:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:16:25,649:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 102, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047385, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:16:25,649:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:16:25,649:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:16:26,374:DEBUG:discord.gateway: Keeping websocket alive with sequence 102
+2018-04-29 19:16:26,447:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:16:26,447:DEBUG:discord.gateway: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2018-04-29 19:16:26,447:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:16:29,018:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047389018
+2018-04-29 19:16:29,028:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047389018}
+2018-04-29 19:16:29,385:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:16:29,385:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:16:29,401:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:16:29,401:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 103, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047389, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:16:29,402:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:16:29,402:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:16:32,679:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:16:32,679:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:16:32,695:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:16:32,695:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 104, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047392, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:16:32,696:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:16:32,697:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:16:34,523:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047394523
+2018-04-29 19:16:34,533:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047394523}
+2018-04-29 19:16:36,033:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:16:36,033:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:16:36,043:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:16:36,044:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 105, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047396, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:16:36,044:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:16:36,044:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:16:36,756:DEBUG:discord.http: DELETE https://discordapp.com/api/v6/channels/416029196750422017/messages/440305352798502913 with None has returned 204
+2018-04-29 19:16:36,757:DEBUG:discord.http: DELETE https://discordapp.com/api/v6/channels/416029196750422017/messages/440305352798502913 has received 
+2018-04-29 19:16:36,764:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:16:36,764:DEBUG:discord.gateway: WebSocket Event: {'t': 'MESSAGE_DELETE', 's': 106, 'op': 0, 'd': {'id': '440305352798502913', 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:16:36,764:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:16:36,764:DEBUG:discord.client: Dispatching event message_delete
+2018-04-29 19:16:39,108:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:16:39,108:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:16:39,120:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:16:39,120:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 107, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047399, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:16:39,120:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:16:39,120:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:16:40,025:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047400025
+2018-04-29 19:16:40,034:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047400025}
+2018-04-29 19:16:42,919:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:16:42,920:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:16:42,928:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:16:42,928:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 108, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047402, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:16:42,928:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:16:42,928:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:16:45,159:DEBUG:discord.http: DELETE https://discordapp.com/api/v6/channels/416029196750422017/messages/440305220438982656 with None has returned 204
+2018-04-29 19:16:45,160:DEBUG:discord.http: DELETE https://discordapp.com/api/v6/channels/416029196750422017/messages/440305220438982656 has received 
+2018-04-29 19:16:45,168:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:16:45,168:DEBUG:discord.gateway: WebSocket Event: {'t': 'MESSAGE_DELETE', 's': 109, 'op': 0, 'd': {'id': '440305220438982656', 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:16:45,168:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:16:45,168:DEBUG:discord.client: Dispatching event message_delete
+2018-04-29 19:16:45,529:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047405529
+2018-04-29 19:16:45,539:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047405529}
+2018-04-29 19:16:47,274:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:16:47,274:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 110, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047407, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:16:47,274:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:16:47,274:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:16:47,427:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:16:47,428:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:16:47,827:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:16:47,827:DEBUG:discord.gateway: WebSocket Event: {'t': 'PRESENCE_UPDATE', 's': 111, 'op': 0, 'd': {'user': {'id': '293731150239891456'}, 'status': 'online', 'roles': ['417131053187334164', '420321229283786763'], 'nick': 'ndeogj embed', 'guild_id': '408203316250542082', 'game': {'type': 0, 'name': '>help • 1931 guilds'}}}
+2018-04-29 19:16:47,827:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:16:47,827:DEBUG:discord.client: Dispatching event member_update
+2018-04-29 19:16:50,364:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:16:50,364:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:16:50,377:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:16:50,377:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 112, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047410, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:16:50,377:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:16:50,378:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:16:51,035:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047411035
+2018-04-29 19:16:51,044:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047411035}
+2018-04-29 19:16:54,238:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:16:54,239:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:16:54,259:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:16:54,259:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 113, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047414, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:16:54,259:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:16:54,259:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:16:56,541:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047416540
+2018-04-29 19:16:56,550:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047416540}
+2018-04-29 19:16:58,089:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:16:58,090:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:16:58,098:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:16:58,099:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 114, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047418, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:16:58,099:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:16:58,099:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:17:01,737:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:17:01,738:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:17:01,749:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:17:01,749:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 115, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047421, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:17:01,750:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:17:01,750:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:17:02,044:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047422044
+2018-04-29 19:17:02,053:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047422044}
+2018-04-29 19:17:05,300:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:17:05,300:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:17:05,315:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:17:05,315:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 116, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047425, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:17:05,315:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:17:05,316:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:17:07,547:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047427547
+2018-04-29 19:17:07,557:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047427547}
+2018-04-29 19:17:07,628:DEBUG:discord.gateway: Keeping websocket alive with sequence 116
+2018-04-29 19:17:07,688:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:17:07,688:DEBUG:discord.gateway: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2018-04-29 19:17:07,689:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:17:09,616:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:17:09,616:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:17:09,633:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:17:09,633:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 117, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047429, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:17:09,633:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:17:09,634:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:17:13,062:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047433062
+2018-04-29 19:17:13,140:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047433062}
+2018-04-29 19:17:13,247:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:17:13,247:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:17:13,255:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:17:13,256:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 118, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047433, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:17:13,256:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:17:13,256:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:17:16,627:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:17:16,627:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:17:16,655:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:17:16,656:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 119, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047436, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:17:16,656:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:17:16,656:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:17:18,621:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047438621
+2018-04-29 19:17:18,632:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047438621}
+2018-04-29 19:17:19,571:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:17:19,571:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 120, 'op': 0, 'd': {'user_id': '236614912284033024', 'timestamp': 1525047439, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:17:19,572:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:17:19,572:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:17:20,413:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:17:20,413:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:17:20,424:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:17:20,424:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 121, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047440, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:17:20,425:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:17:20,425:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:17:23,339:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:17:23,339:DEBUG:discord.gateway: WebSocket Event: {'t': 'MESSAGE_CREATE', 's': 122, 'op': 0, 'd': {'type': 0, 'tts': False, 'timestamp': '2018-04-30T00:17:23.300000+00:00', 'pinned': False, 'nonce': '440305632411648000', 'mentions': [], 'mention_roles': [], 'mention_everyone': False, 'id': '440305632621494292', 'embeds': [], 'edited_timestamp': None, 'content': 'f.help', 'channel_id': '416029196750422017', 'author': {'username': 'Just An Okapi', 'id': '236614912284033024', 'discriminator': '8112', 'avatar': 'ad1309129aaa3c6327a534c9a7e85303'}, 'attachments': [], 'guild_id': '408203316250542082'}}
+2018-04-29 19:17:23,339:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:17:23,340:DEBUG:discord.client: Dispatching event message
+2018-04-29 19:17:24,033:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:17:24,033:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:17:24,051:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:17:24,051:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 123, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047444, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:17:24,052:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:17:24,052:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:17:24,123:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047444123
+2018-04-29 19:17:24,132:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047444123}
+2018-04-29 19:17:24,578:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:17:24,578:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 124, 'op': 0, 'd': {'user_id': '236614912284033024', 'timestamp': 1525047444, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:17:24,578:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:17:24,579:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:17:26,045:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:17:26,046:DEBUG:discord.gateway: WebSocket Event: {'t': 'MESSAGE_CREATE', 's': 125, 'op': 0, 'd': {'type': 0, 'tts': False, 'timestamp': '2018-04-30T00:17:26.008000+00:00', 'pinned': False, 'nonce': '440305643782406144', 'mentions': [], 'mention_roles': [], 'mention_everyone': False, 'id': '440305643979800605', 'embeds': [], 'edited_timestamp': None, 'content': 'F.help', 'channel_id': '416029196750422017', 'author': {'username': 'Just An Okapi', 'id': '236614912284033024', 'discriminator': '8112', 'avatar': 'ad1309129aaa3c6327a534c9a7e85303'}, 'attachments': [], 'guild_id': '408203316250542082'}}
+2018-04-29 19:17:26,046:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:17:26,046:DEBUG:discord.client: Dispatching event message
+2018-04-29 19:17:26,130:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:17:26,131:DEBUG:discord.gateway: WebSocket Event: {'t': 'MESSAGE_CREATE', 's': 126, 'op': 0, 'd': {'type': 0, 'tts': False, 'timestamp': '2018-04-30T00:17:26.089000+00:00', 'pinned': False, 'nonce': None, 'mentions': [], 'mention_roles': [], 'mention_everyone': False, 'id': '440305644319408128', 'embeds': [{'type': 'rich', 'title': 'help', 'footer': {'text': 'Just-Some-Bots/MusicBot (1.9.7)', 'proxy_icon_url': 'https://images-ext-2.discordapp.net/external/5pzmnAqUgCRarailEEaHuDkmh1T2fWOQeB_IA-auW5I/https/i.imgur.com/gFHBoZA.png', 'icon_url': 'https://i.imgur.com/gFHBoZA.png'}, 'description': '<@236614912284033024> ```\nF.blacklist, F.clean, F.clear, F.disconnect, F.help, F.id, F.joinserver, F.karaoke, F.leaveserver, F.listids, F.np, F.option, F.pause, F.perms, F.play, F.pldump, F.queue, F.remove, F.resetplaylist, F.restart, F.resume, F.save, F.search, F.setavatar, F.setname, F.setnick, F.shuffle, F.shutdown, F.skip, F.stream, F.summon, F.volume\n```\nFor information about a particular command, run `F.help [command]`\nFor further help, see https://just-some-bots.github.io/MusicBot/\nOnly showing commands you can use, for a list of all commands, run `F.help all`', 'color': 7506394, 'author': {'url': 'https://github.com/Just-Some-Bots/MusicBot', 'name': 'okapi-music'}}], 'edited_timestamp': None, 'content': '', 'channel_id': '416029196750422017', 'author': {'username': 'okapi-music', 'id': '440299421104734228', 'discriminator': '2233', 'bot': True, 'avatar': None}, 'attachments': [], 'guild_id': '408203316250542082'}}
+2018-04-29 19:17:26,132:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:17:26,132:DEBUG:discord.client: Dispatching event message
+2018-04-29 19:17:26,133:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/messages with {"embed":{"footer":{"text":"Just-Some-Bots/MusicBot (1.9.7)","icon_url":"https://i.imgur.com/gFHBoZA.png"},"author":{"name":"okapi-music","url":"https://github.com/Just-Some-Bots/MusicBot","icon_url":""},"color":7506394,"type":"rich","description":"<@236614912284033024> ```\nF.blacklist, F.clean, F.clear, F.disconnect, F.help, F.id, F.joinserver, F.karaoke, F.leaveserver, F.listids, F.np, F.option, F.pause, F.perms, F.play, F.pldump, F.queue, F.remove, F.resetplaylist, F.restart, F.resume, F.save, F.search, F.setavatar, F.setname, F.setnick, F.shuffle, F.shutdown, F.skip, F.stream, F.summon, F.volume\n```\nFor information about a particular command, run `F.help [command]`\nFor further help, see https://just-some-bots.github.io/MusicBot/\nOnly showing commands you can use, for a list of all commands, run `F.help all`","title":"help"}} has returned 200
+2018-04-29 19:17:26,134:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/messages has received {'nonce': None, 'attachments': [], 'tts': False, 'embeds': [{'description': '<@236614912284033024> ```\nF.blacklist, F.clean, F.clear, F.disconnect, F.help, F.id, F.joinserver, F.karaoke, F.leaveserver, F.listids, F.np, F.option, F.pause, F.perms, F.play, F.pldump, F.queue, F.remove, F.resetplaylist, F.restart, F.resume, F.save, F.search, F.setavatar, F.setname, F.setnick, F.shuffle, F.shutdown, F.skip, F.stream, F.summon, F.volume\n```\nFor information about a particular command, run `F.help [command]`\nFor further help, see https://just-some-bots.github.io/MusicBot/\nOnly showing commands you can use, for a list of all commands, run `F.help all`', 'footer': {'text': 'Just-Some-Bots/MusicBot (1.9.7)', 'proxy_icon_url': 'https://images-ext-2.discordapp.net/external/5pzmnAqUgCRarailEEaHuDkmh1T2fWOQeB_IA-auW5I/https/i.imgur.com/gFHBoZA.png', 'icon_url': 'https://i.imgur.com/gFHBoZA.png'}, 'color': 7506394, 'author': {'url': 'https://github.com/Just-Some-Bots/MusicBot', 'name': 'okapi-music'}, 'title': 'help', 'type': 'rich'}], 'timestamp': '2018-04-30T00:17:26.089000+00:00', 'mention_everyone': False, 'id': '440305644319408128', 'pinned': False, 'edited_timestamp': None, 'author': {'username': 'okapi-music', 'discriminator': '2233', 'bot': True, 'id': '440299421104734228', 'avatar': None}, 'mention_roles': [], 'content': '', 'channel_id': '416029196750422017', 'mentions': [], 'type': 0}
+2018-04-29 19:17:26,189:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:17:26,196:DEBUG:discord.gateway: WebSocket Event: {'t': 'MESSAGE_UPDATE', 's': 127, 'op': 0, 'd': {'id': '440305644319408128', 'embeds': [{'type': 'rich', 'title': 'help', 'footer': {'text': 'Just-Some-Bots/MusicBot (1.9.7)', 'proxy_icon_url': 'https://images-ext-2.discordapp.net/external/5pzmnAqUgCRarailEEaHuDkmh1T2fWOQeB_IA-auW5I/https/i.imgur.com/gFHBoZA.png', 'icon_url': 'https://i.imgur.com/gFHBoZA.png'}, 'description': '<@236614912284033024> ```\nF.blacklist, F.clean, F.clear, F.disconnect, F.help, F.id, F.joinserver, F.karaoke, F.leaveserver, F.listids, F.np, F.option, F.pause, F.perms, F.play, F.pldump, F.queue, F.remove, F.resetplaylist, F.restart, F.resume, F.save, F.search, F.setavatar, F.setname, F.setnick, F.shuffle, F.shutdown, F.skip, F.stream, F.summon, F.volume\n```\nFor information about a particular command, run `F.help [command]`\nFor further help, see https://just-some-bots.github.io/MusicBot/\nOnly showing commands you can use, for a list of all commands, run `F.help all`', 'color': 7506394, 'author': {'url': 'https://github.com/Just-Some-Bots/MusicBot', 'name': 'okapi-music'}}], 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:17:26,196:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:17:26,196:DEBUG:discord.client: Dispatching event message_edit
+2018-04-29 19:17:27,311:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:17:27,311:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:17:27,326:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:17:27,326:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 128, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047447, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:17:27,326:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:17:27,326:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:17:29,641:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047449641
+2018-04-29 19:17:29,688:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047449641}
+2018-04-29 19:17:30,619:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:17:30,621:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:17:30,632:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:17:30,633:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 129, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047450, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:17:30,633:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:17:30,633:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:17:32,586:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:17:32,586:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 130, 'op': 0, 'd': {'user_id': '236614912284033024', 'timestamp': 1525047452, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:17:32,586:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:17:32,586:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:17:34,290:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:17:34,290:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 131, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047454, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:17:34,290:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:17:34,291:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:17:34,354:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:17:34,354:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:17:35,172:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047455172
+2018-04-29 19:17:35,182:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047455172}
+2018-04-29 19:17:37,630:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:17:37,630:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:17:37,641:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:17:37,641:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 132, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047457, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:17:37,641:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:17:37,641:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:17:40,679:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047460679
+2018-04-29 19:17:40,690:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047460679}
+2018-04-29 19:17:40,772:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:17:40,772:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 133, 'op': 0, 'd': {'user_id': '236614912284033024', 'timestamp': 1525047460, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:17:40,773:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:17:40,773:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:17:41,124:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:17:41,125:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:17:41,140:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:17:41,140:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 134, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047461, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:17:41,140:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:17:41,140:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:17:44,494:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:17:44,494:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:17:44,506:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:17:44,507:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 135, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047464, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:17:44,507:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:17:44,508:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:17:44,603:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:17:44,604:DEBUG:discord.gateway: WebSocket Event: {'t': 'MESSAGE_CREATE', 's': 136, 'op': 0, 'd': {'type': 0, 'tts': False, 'timestamp': '2018-04-30T00:17:44.554000+00:00', 'pinned': False, 'nonce': '440305721456721920', 'mentions': [], 'mention_roles': [], 'mention_everyone': False, 'id': '440305721767100425', 'embeds': [], 'edited_timestamp': None, 'content': 'F.setnick Just An Music Bot', 'channel_id': '416029196750422017', 'author': {'username': 'Just An Okapi', 'id': '236614912284033024', 'discriminator': '8112', 'avatar': 'ad1309129aaa3c6327a534c9a7e85303'}, 'attachments': [], 'guild_id': '408203316250542082'}}
+2018-04-29 19:17:44,604:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:17:44,604:DEBUG:discord.client: Dispatching event message
+2018-04-29 19:17:44,740:DEBUG:discord.http: PATCH https://discordapp.com/api/v6/guilds/408203316250542082/members/@me/nick with {"nick":"Just An Music Bot"} has returned 200
+2018-04-29 19:17:44,741:INFO:discord.http: A rate limit bucket has been exhausted (bucket: PATCH:None:408203316250542082:/guilds/{guild_id}/members/@me/nick, retry: 2.0).
+2018-04-29 19:17:44,741:DEBUG:discord.http: PATCH https://discordapp.com/api/v6/guilds/408203316250542082/members/@me/nick has received {'nick': 'Just An Music Bot'}
+2018-04-29 19:17:44,744:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:17:44,745:DEBUG:discord.gateway: WebSocket Event: {'t': 'GUILD_MEMBER_UPDATE', 's': 137, 'op': 0, 'd': {'user': {'username': 'okapi-music', 'id': '440299421104734228', 'discriminator': '2233', 'bot': True, 'avatar': None}, 'roles': ['420321229283786763', '440303265545191444'], 'nick': 'Just An Music Bot', 'guild_id': '408203316250542082'}}
+2018-04-29 19:17:44,745:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:17:44,745:DEBUG:discord.client: Dispatching event member_update
+2018-04-29 19:17:44,831:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:17:44,832:DEBUG:discord.gateway: WebSocket Event: {'t': 'MESSAGE_CREATE', 's': 138, 'op': 0, 'd': {'type': 0, 'tts': False, 'timestamp': '2018-04-30T00:17:44.685000+00:00', 'pinned': False, 'nonce': None, 'mentions': [], 'mention_roles': [], 'mention_everyone': False, 'id': '440305722316816406', 'embeds': [{'type': 'rich', 'title': 'setnick', 'footer': {'text': 'Just-Some-Bots/MusicBot (1.9.7)', 'proxy_icon_url': 'https://images-ext-2.discordapp.net/external/5pzmnAqUgCRarailEEaHuDkmh1T2fWOQeB_IA-auW5I/https/i.imgur.com/gFHBoZA.png', 'icon_url': 'https://i.imgur.com/gFHBoZA.png'}, 'description': "Set the bot's nickname to `Just An Music Bot`", 'color': 7506394, 'author': {'url': 'https://github.com/Just-Some-Bots/MusicBot', 'name': 'okapi-music'}}], 'edited_timestamp': None, 'content': '', 'channel_id': '416029196750422017', 'author': {'username': 'okapi-music', 'id': '440299421104734228', 'discriminator': '2233', 'bot': True, 'avatar': None}, 'attachments': [], 'guild_id': '408203316250542082'}}
+2018-04-29 19:17:44,832:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:17:44,832:DEBUG:discord.client: Dispatching event message
+2018-04-29 19:17:44,836:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/messages with {"embed":{"footer":{"text":"Just-Some-Bots/MusicBot (1.9.7)","icon_url":"https://i.imgur.com/gFHBoZA.png"},"author":{"name":"okapi-music","url":"https://github.com/Just-Some-Bots/MusicBot","icon_url":""},"color":7506394,"type":"rich","description":"Set the bot's nickname to `Just An Music Bot`","title":"setnick"}} has returned 200
+2018-04-29 19:17:44,837:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/messages has received {'nonce': None, 'attachments': [], 'tts': False, 'embeds': [{'description': "Set the bot's nickname to `Just An Music Bot`", 'footer': {'text': 'Just-Some-Bots/MusicBot (1.9.7)', 'proxy_icon_url': 'https://images-ext-2.discordapp.net/external/5pzmnAqUgCRarailEEaHuDkmh1T2fWOQeB_IA-auW5I/https/i.imgur.com/gFHBoZA.png', 'icon_url': 'https://i.imgur.com/gFHBoZA.png'}, 'color': 7506394, 'author': {'url': 'https://github.com/Just-Some-Bots/MusicBot', 'name': 'okapi-music'}, 'title': 'setnick', 'type': 'rich'}], 'timestamp': '2018-04-30T00:17:44.685000+00:00', 'mention_everyone': False, 'id': '440305722316816406', 'pinned': False, 'edited_timestamp': None, 'author': {'username': 'okapi-music', 'discriminator': '2233', 'bot': True, 'id': '440299421104734228', 'avatar': None}, 'mention_roles': [], 'content': '', 'channel_id': '416029196750422017', 'mentions': [], 'type': 0}
+2018-04-29 19:17:44,856:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:17:44,857:DEBUG:discord.gateway: WebSocket Event: {'t': 'MESSAGE_UPDATE', 's': 139, 'op': 0, 'd': {'id': '440305722316816406', 'embeds': [{'type': 'rich', 'title': 'setnick', 'footer': {'text': 'Just-Some-Bots/MusicBot (1.9.7)', 'proxy_icon_url': 'https://images-ext-2.discordapp.net/external/5pzmnAqUgCRarailEEaHuDkmh1T2fWOQeB_IA-auW5I/https/i.imgur.com/gFHBoZA.png', 'icon_url': 'https://i.imgur.com/gFHBoZA.png'}, 'description': "Set the bot's nickname to `Just An Music Bot`", 'color': 7506394, 'author': {'url': 'https://github.com/Just-Some-Bots/MusicBot', 'name': 'okapi-music'}}], 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:17:44,857:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:17:44,857:DEBUG:discord.client: Dispatching event message_edit
+2018-04-29 19:17:46,185:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047466185
+2018-04-29 19:17:46,195:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047466185}
+2018-04-29 19:17:47,960:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:17:47,961:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:17:47,961:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:17:47,961:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 140, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047467, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:17:47,964:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:17:47,964:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:17:48,000:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:17:48,001:DEBUG:discord.gateway: WebSocket Event: {'t': 'PRESENCE_UPDATE', 's': 141, 'op': 0, 'd': {'user': {'id': '293731150239891456'}, 'status': 'online', 'roles': ['417131053187334164', '420321229283786763'], 'nick': 'ndeogj embed', 'guild_id': '408203316250542082', 'game': {'type': 0, 'name': '>help • 1747 widgets'}}}
+2018-04-29 19:17:48,001:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:17:48,001:DEBUG:discord.client: Dispatching event member_update
+2018-04-29 19:17:48,881:DEBUG:discord.gateway: Keeping websocket alive with sequence 141
+2018-04-29 19:17:48,949:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:17:48,950:DEBUG:discord.gateway: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2018-04-29 19:17:48,950:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:17:51,433:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:17:51,434:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:17:51,445:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:17:51,445:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 142, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047471, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:17:51,446:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:17:51,446:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:17:51,690:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047471690
+2018-04-29 19:17:51,699:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047471690}
+2018-04-29 19:17:54,896:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:17:54,896:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:17:54,901:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:17:54,902:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 143, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047474, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:17:54,907:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:17:54,907:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:17:57,191:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047477191
+2018-04-29 19:17:57,201:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047477191}
+2018-04-29 19:17:58,206:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:17:58,206:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:17:58,231:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:17:58,232:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 144, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047478, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:17:58,232:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:17:58,232:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:18:01,676:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:18:01,676:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:18:01,687:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:18:01,688:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 145, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047481, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:18:01,688:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:18:01,688:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:18:02,697:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047482697
+2018-04-29 19:18:02,707:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047482697}
+2018-04-29 19:18:03,327:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:18:03,327:DEBUG:discord.gateway: WebSocket Event: {'t': 'PRESENCE_UPDATE', 's': 146, 'op': 0, 'd': {'user': {'id': '198681707677745154'}, 'status': 'idle', 'roles': ['417363402890149918'], 'nick': None, 'guild_id': '408203316250542082', 'game': {'type': 2, 'timestamps': {'start': 1525047483494, 'end': 1525047693744}, 'sync_id': '4SoFdGSFcITZ6S94rx4KQl', 'state': 'Gus Dapperton', 'session_id': '8bfca764a03e533f78cfc9b0b432bb6e', 'party': {'id': 'spotify:198681707677745154'}, 'name': 'Spotify', 'flags': 48, 'details': 'Ditch', 'assets': {'large_text': 'Ditch', 'large_image': 'spotify:4e10acf2c3be0d153948389827f863943551c1ea'}}}}
+2018-04-29 19:18:03,327:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:18:03,327:DEBUG:discord.client: Dispatching event member_update
+2018-04-29 19:18:05,002:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:18:05,002:DEBUG:discord.gateway: WebSocket Event: {'t': 'MESSAGE_DELETE', 's': 147, 'op': 0, 'd': {'id': '440305722316816406', 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:18:05,002:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:18:05,003:DEBUG:discord.client: Dispatching event message_delete
+2018-04-29 19:18:05,082:DEBUG:discord.http: DELETE https://discordapp.com/api/v6/channels/416029196750422017/messages/440305722316816406 with None has returned 204
+2018-04-29 19:18:05,083:DEBUG:discord.http: DELETE https://discordapp.com/api/v6/channels/416029196750422017/messages/440305722316816406 has received 
+2018-04-29 19:18:05,158:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:18:05,159:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 148, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047485, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:18:05,159:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:18:05,159:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:18:05,225:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:18:05,225:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:18:08,198:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047488198
+2018-04-29 19:18:08,211:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047488198}
+2018-04-29 19:18:08,762:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:18:08,763:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:18:08,780:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:18:08,780:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 149, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047488, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:18:08,781:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:18:08,781:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:18:12,009:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:18:12,009:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:18:12,024:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:18:12,024:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 150, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047491, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:18:12,024:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:18:12,024:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:18:13,701:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047493701
+2018-04-29 19:18:13,711:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047493701}
+2018-04-29 19:18:15,553:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:18:15,553:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:18:15,561:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:18:15,561:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 151, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047495, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:18:15,568:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:18:15,570:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:18:18,655:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:18:18,655:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:18:18,673:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:18:18,673:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 152, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047498, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:18:18,673:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:18:18,673:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:18:19,205:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047499205
+2018-04-29 19:18:19,215:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047499205}
+2018-04-29 19:18:22,654:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:18:22,654:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:18:22,664:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:18:22,664:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 153, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047502, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:18:22,665:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:18:22,665:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:18:24,709:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047504709
+2018-04-29 19:18:24,719:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047504709}
+2018-04-29 19:18:26,242:DEBUG:discord.http: DELETE https://discordapp.com/api/v6/channels/416029196750422017/messages/440305644319408128 with None has returned 204
+2018-04-29 19:18:26,243:DEBUG:discord.http: DELETE https://discordapp.com/api/v6/channels/416029196750422017/messages/440305644319408128 has received 
+2018-04-29 19:18:26,259:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:18:26,259:DEBUG:discord.gateway: WebSocket Event: {'t': 'MESSAGE_DELETE', 's': 154, 'op': 0, 'd': {'id': '440305644319408128', 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:18:26,259:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:18:26,259:DEBUG:discord.client: Dispatching event message_delete
+2018-04-29 19:18:26,769:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:18:26,770:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:18:26,779:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:18:26,780:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 155, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047506, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:18:26,780:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:18:26,780:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:18:30,135:DEBUG:discord.gateway: Keeping websocket alive with sequence 155
+2018-04-29 19:18:30,199:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:18:30,199:DEBUG:discord.gateway: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2018-04-29 19:18:30,200:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:18:30,213:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047510213
+2018-04-29 19:18:30,223:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047510213}
+2018-04-29 19:18:30,452:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:18:30,452:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:18:30,466:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:18:30,466:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 156, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047510, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:18:30,467:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:18:30,467:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:18:33,579:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:18:33,579:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:18:33,596:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:18:33,596:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 157, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047513, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:18:33,596:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:18:33,596:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:18:35,719:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047515719
+2018-04-29 19:18:35,729:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047515719}
+2018-04-29 19:18:37,145:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:18:37,145:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:18:37,161:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:18:37,161:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 158, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047517, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:18:37,162:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:18:37,162:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:18:40,701:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:18:40,702:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:18:40,714:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:18:40,715:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 159, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047520, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:18:40,715:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:18:40,715:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:18:41,223:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047521223
+2018-04-29 19:18:41,233:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047521223}
+2018-04-29 19:18:44,255:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:18:44,255:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:18:44,266:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:18:44,266:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 160, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047524, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:18:44,266:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:18:44,267:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:18:46,728:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047526728
+2018-04-29 19:18:46,738:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047526728}
+2018-04-29 19:18:47,353:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing with None has returned 204
+2018-04-29 19:18:47,353:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/typing has received 
+2018-04-29 19:18:47,368:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:18:47,368:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 161, 'op': 0, 'd': {'user_id': '440299421104734228', 'timestamp': 1525047527, 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:18:47,368:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:18:47,368:DEBUG:discord.client: Dispatching event typing
+2018-04-29 19:18:47,891:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:18:47,891:DEBUG:discord.gateway: WebSocket Event: {'t': 'PRESENCE_UPDATE', 's': 162, 'op': 0, 'd': {'user': {'id': '293731150239891456'}, 'status': 'online', 'roles': ['417131053187334164', '420321229283786763'], 'nick': 'ndeogj embed', 'guild_id': '408203316250542082', 'game': {'type': 0, 'name': '>help • 1931 guilds'}}}
+2018-04-29 19:18:47,891:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:18:47,892:DEBUG:discord.client: Dispatching event member_update
+2018-04-29 19:18:50,550:DEBUG:discord.http: DELETE https://discordapp.com/api/v6/channels/416029196750422017/messages/440304435739230208 with None has returned 204
+2018-04-29 19:18:50,550:DEBUG:discord.http: DELETE https://discordapp.com/api/v6/channels/416029196750422017/messages/440304435739230208 has received 
+2018-04-29 19:18:50,560:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:18:50,560:DEBUG:discord.gateway: WebSocket Event: {'t': 'MESSAGE_DELETE', 's': 163, 'op': 0, 'd': {'id': '440304435739230208', 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:18:50,560:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:18:50,560:DEBUG:discord.client: Dispatching event message_delete
+2018-04-29 19:18:50,653:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:18:50,653:DEBUG:discord.gateway: WebSocket Event: {'t': 'MESSAGE_CREATE', 's': 164, 'op': 0, 'd': {'type': 0, 'tts': False, 'timestamp': '2018-04-30T00:18:50.601000+00:00', 'pinned': False, 'nonce': None, 'mentions': [], 'mention_roles': [], 'mention_everyone': False, 'id': '440305998788296704', 'embeds': [{'type': 'rich', 'title': 'play', 'footer': {'text': 'Just-Some-Bots/MusicBot (1.9.7)', 'proxy_icon_url': 'https://images-ext-2.discordapp.net/external/5pzmnAqUgCRarailEEaHuDkmh1T2fWOQeB_IA-auW5I/https/i.imgur.com/gFHBoZA.png', 'icon_url': 'https://i.imgur.com/gFHBoZA.png'}, 'description': 'Enqueued `Prototyperaptor` with **95** songs.', 'color': 7506394, 'author': {'url': 'https://github.com/Just-Some-Bots/MusicBot', 'name': 'okapi-music'}}], 'edited_timestamp': None, 'content': '', 'channel_id': '416029196750422017', 'author': {'username': 'okapi-music', 'id': '440299421104734228', 'discriminator': '2233', 'bot': True, 'avatar': None}, 'attachments': [], 'guild_id': '408203316250542082'}}
+2018-04-29 19:18:50,654:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:18:50,654:DEBUG:discord.client: Dispatching event message
+2018-04-29 19:18:50,664:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/messages with {"embed":{"footer":{"text":"Just-Some-Bots/MusicBot (1.9.7)","icon_url":"https://i.imgur.com/gFHBoZA.png"},"author":{"name":"okapi-music","url":"https://github.com/Just-Some-Bots/MusicBot","icon_url":""},"color":7506394,"type":"rich","description":"Enqueued `Prototyperaptor` with **95** songs.","title":"play"}} has returned 200
+2018-04-29 19:18:50,664:DEBUG:discord.http: POST https://discordapp.com/api/v6/channels/416029196750422017/messages has received {'nonce': None, 'attachments': [], 'tts': False, 'embeds': [{'description': 'Enqueued `Prototyperaptor` with **95** songs.', 'footer': {'text': 'Just-Some-Bots/MusicBot (1.9.7)', 'proxy_icon_url': 'https://images-ext-2.discordapp.net/external/5pzmnAqUgCRarailEEaHuDkmh1T2fWOQeB_IA-auW5I/https/i.imgur.com/gFHBoZA.png', 'icon_url': 'https://i.imgur.com/gFHBoZA.png'}, 'color': 7506394, 'author': {'url': 'https://github.com/Just-Some-Bots/MusicBot', 'name': 'okapi-music'}, 'title': 'play', 'type': 'rich'}], 'timestamp': '2018-04-30T00:18:50.601000+00:00', 'mention_everyone': False, 'id': '440305998788296704', 'pinned': False, 'edited_timestamp': None, 'author': {'username': 'okapi-music', 'discriminator': '2233', 'bot': True, 'id': '440299421104734228', 'avatar': None}, 'mention_roles': [], 'content': '', 'channel_id': '416029196750422017', 'mentions': [], 'type': 0}
+2018-04-29 19:18:50,736:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:18:50,737:DEBUG:discord.gateway: WebSocket Event: {'t': 'MESSAGE_UPDATE', 's': 165, 'op': 0, 'd': {'id': '440305998788296704', 'embeds': [{'type': 'rich', 'title': 'play', 'footer': {'text': 'Just-Some-Bots/MusicBot (1.9.7)', 'proxy_icon_url': 'https://images-ext-2.discordapp.net/external/5pzmnAqUgCRarailEEaHuDkmh1T2fWOQeB_IA-auW5I/https/i.imgur.com/gFHBoZA.png', 'icon_url': 'https://i.imgur.com/gFHBoZA.png'}, 'description': 'Enqueued `Prototyperaptor` with **95** songs.', 'color': 7506394, 'author': {'url': 'https://github.com/Just-Some-Bots/MusicBot', 'name': 'okapi-music'}}], 'channel_id': '416029196750422017', 'guild_id': '408203316250542082'}}
+2018-04-29 19:18:50,737:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:18:50,737:DEBUG:discord.client: Dispatching event message_edit
+2018-04-29 19:18:52,232:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047532232
+2018-04-29 19:18:52,241:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047532232}
+2018-04-29 19:18:57,738:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047537738
+2018-04-29 19:18:57,748:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047537738}
+2018-04-29 19:19:03,244:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047543244
+2018-04-29 19:19:03,254:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047543244}
+2018-04-29 19:19:08,748:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047548748
+2018-04-29 19:19:08,757:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047548748}
+2018-04-29 19:19:11,390:DEBUG:discord.gateway: Keeping websocket alive with sequence 165
+2018-04-29 19:19:11,450:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:19:11,450:DEBUG:discord.gateway: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2018-04-29 19:19:11,450:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:19:14,249:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047554249
+2018-04-29 19:19:14,259:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047554249}
+2018-04-29 19:19:19,755:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047559755
+2018-04-29 19:19:19,764:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047559755}
+2018-04-29 19:19:25,259:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047565259
+2018-04-29 19:19:25,268:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047565259}
+2018-04-29 19:19:30,763:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047570763
+2018-04-29 19:19:30,773:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047570763}
+2018-04-29 19:19:36,267:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047576267
+2018-04-29 19:19:36,277:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047576267}
+2018-04-29 19:19:41,771:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047581771
+2018-04-29 19:19:41,780:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047581771}
+2018-04-29 19:19:47,276:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047587275
+2018-04-29 19:19:47,285:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047587275}
+2018-04-29 19:19:48,022:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:19:48,025:DEBUG:discord.gateway: WebSocket Event: {'t': 'PRESENCE_UPDATE', 's': 166, 'op': 0, 'd': {'user': {'id': '293731150239891456'}, 'status': 'online', 'roles': ['417131053187334164', '420321229283786763'], 'nick': 'ndeogj embed', 'guild_id': '408203316250542082', 'game': {'type': 0, 'name': '>help • 1748 widgets'}}}
+2018-04-29 19:19:48,025:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:19:48,026:DEBUG:discord.client: Dispatching event member_update
+2018-04-29 19:19:52,644:DEBUG:discord.gateway: Keeping websocket alive with sequence 166
+2018-04-29 19:19:52,714:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:19:52,715:DEBUG:discord.gateway: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2018-04-29 19:19:52,715:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:19:52,778:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047592777
+2018-04-29 19:19:52,787:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047592777}
+2018-04-29 19:19:58,281:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047598281
+2018-04-29 19:19:58,290:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047598281}
+2018-04-29 19:20:03,786:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047603786
+2018-04-29 19:20:03,795:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047603786}
+2018-04-29 19:20:04,013:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:20:04,013:DEBUG:discord.gateway: WebSocket Event: {'t': 'PRESENCE_UPDATE', 's': 167, 'op': 0, 'd': {'user': {'id': '355904428563365898'}, 'status': 'offline', 'roles': ['417363402890149918'], 'nick': None, 'guild_id': '408203316250542082', 'game': None}}
+2018-04-29 19:20:04,013:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:20:04,014:DEBUG:discord.client: Dispatching event member_update
+2018-04-29 19:20:09,288:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525047609288
+2018-04-29 19:20:09,297:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525047609288}

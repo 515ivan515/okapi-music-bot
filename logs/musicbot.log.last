@@ -1,0 +1,48 @@
+[77.291011810] 2018-04-29 19:08:54,774 - INFO - launcher: Starting sanity checks
+[77.964067459] 2018-04-29 19:08:54,775 - INFO - launcher: Checking for Python 3.5+
+[78.124046326] 2018-04-29 19:08:54,775 - INFO - launcher: Checking console encoding
+[78.349113464] 2018-04-29 19:08:54,775 - INFO - launcher: Ensuring we're in the right environment
+[79.487323761] 2018-04-29 19:08:54,776 - INFO - launcher: Required checks passed.
+[79.755067825] 2018-04-29 19:08:54,777 - INFO - launcher: Optional checks passed.
+[79.991102219] 2018-04-29 19:08:54,777 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[1.6119389533996582] 2018-04-29 19:08:56,309 - WARNING - musicbot.config | In config.py::MainThread(4321366912), line 112 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[1.6123170852661133] 2018-04-29 19:08:56,309 - INFO - musicbot.config | In config.py::MainThread(4321366912), line 123 in run_checks: Using i18n: config/i18n/en.json
+[1.6129419803619385] 2018-04-29 19:08:56,310 - WARNING - musicbot.config | In config.py::MainThread(4321366912), line 206 in create_empty_file_ifnoexist: Creating config/blacklist.txt
+[1.6135511398315430] 2018-04-29 19:08:56,310 - WARNING - musicbot.config | In config.py::MainThread(4321366912), line 206 in create_empty_file_ifnoexist: Creating config/whitelist.txt
+[1.6161191463470459] 2018-04-29 19:08:56,313 - DEBUG - musicbot.config | In config.py::MainThread(4321366912), line 291 in find_autoplaylist: Copying _autoplaylist.txt to autoplaylist.txt
+[1.6214010715484619] 2018-04-29 19:08:56,318 - DEBUG - musicbot.json | In json.py::MainThread(4321366912), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[1.7597451210021973] 2018-04-29 19:08:56,457 - DEBUG - musicbot.bot | In bot.py::MainThread(4321366912), line 227 in _setup_logging: Set logging level to EVERYTHING
+[1.7606341838836670] 2018-04-29 19:08:56,457 - INFO - musicbot.bot | In bot.py::MainThread(4321366912), line 84 in __init__: Starting MusicBot 1.9.7
+[1.7608952522277832] 2018-04-29 19:08:56,458 - INFO - musicbot.bot | In bot.py::MainThread(4321366912), line 90 in __init__: Loaded autoplaylist with 2531 entries
+[2.3424501419067383] 2018-04-29 19:08:57,039 - DEBUG - musicbot.spotify | In spotify.py::MainThread(4321366912), line 70 in get_token: Created a new access token: {'access_token': 'BQBGgcXF_dJk3SS9kYDpLY8POR-PFKC2J-0kUmz2W6Zw8ktED8FIDtVf11OEgdSLIIMxGmVPQhLKt5tScMM', 'token_type': 'Bearer', 'expires_in': 3600, 'scope': '', 'expires_at': 1525050537}
+[2.3429510593414307] 2018-04-29 19:08:57,040 - INFO - musicbot.bot | In bot.py::MainThread(4321366912), line 115 in __init__: Authenticated with Spotify successfully using client ID and secret.
+[5.9209189414978027] 2018-04-29 19:09:00,618 - DEBUG - musicbot.bot | In bot.py::MainThread(4321366912), line 1074 in on_ready: Connection established, ready to go.
+[5.9212660789489746] 2018-04-29 19:09:00,618 - DEBUG - musicbot.bot | In bot.py::MainThread(4321366912), line 339 in _cache_app_info: Caching app info
+[6.0007500648498535] 2018-04-29 19:09:00,698 - DEBUG - musicbot.bot | In bot.py::MainThread(4321366912), line 889 in _scheck_ensure_env: Ensuring data folders exist
+[6.0019559860229492] 2018-04-29 19:09:00,699 - DEBUG - musicbot.bot | In bot.py::MainThread(4321366912), line 905 in _scheck_server_permissions: Checking server permissions
+[6.0022220611572266] 2018-04-29 19:09:00,699 - DEBUG - musicbot.bot | In bot.py::MainThread(4321366912), line 909 in _scheck_autoplaylist: Auditing autoplaylist
+[6.0025441646575928] 2018-04-29 19:09:00,699 - DEBUG - musicbot.bot | In bot.py::MainThread(4321366912), line 913 in _scheck_configs: Validating config
+[6.0028142929077148] 2018-04-29 19:09:00,700 - DEBUG - musicbot.config | In config.py::MainThread(4321366912), line 212 in async_validate: Validating options...
+[6.0031111240386963] 2018-04-29 19:09:00,700 - DEBUG - musicbot.config | In config.py::MainThread(4321366912), line 226 in async_validate: Acquired owner id via API
+[6.0034182071685791] 2018-04-29 19:09:00,700 - DEBUG - musicbot.bot | In bot.py::MainThread(4321366912), line 916 in _scheck_configs: Validating permissions config
+[6.0037112236022949] 2018-04-29 19:09:00,700 - DEBUG - musicbot.permissions | In permissions.py::MainThread(4321366912), line 64 in async_validate: Validating permissions...
+[6.0039632320404053] 2018-04-29 19:09:00,701 - DEBUG - musicbot.permissions | In permissions.py::MainThread(4321366912), line 68 in async_validate: Fixing automatic owner group
+[6.0042240619659424] 2018-04-29 19:09:00,701 - INFO - musicbot.bot | In bot.py::MainThread(4321366912), line 1091 in on_ready: Connected: 440299421104734228/okapi-music#2233
+[6.0045249462127686] 2018-04-29 19:09:00,701 - INFO - musicbot.bot | In bot.py::MainThread(4321366912), line 1099 in on_ready: Owner:     236614912284033024/Just An Okapi#8112
+
+[6.0047390460968018] 2018-04-29 19:09:00,702 - INFO - musicbot.bot | In bot.py::MainThread(4321366912), line 1102 in on_ready: Server List:
+[6.0049691200256348] 2018-04-29 19:09:00,702 - INFO - musicbot.bot | In bot.py::MainThread(4321366912), line 1105 in on_ready:  - NDEogJ
+[6.0052158832550049] 2018-04-29 19:09:00,702 - INFO - musicbot.bot | In bot.py::MainThread(4321366912), line 1151 in on_ready: Not bound to any text channels
+[6.0055100917816162] 2018-04-29 19:09:00,702 - INFO - musicbot.bot | In bot.py::MainThread(4321366912), line 1177 in on_ready: Not autojoining any voice channels
+[27.7269029617309570] 2018-04-29 19:09:22,424 - INFO - musicbot.bot | In bot.py::MainThread(4321366912), line 2734 in on_message: 236614912284033024/Just An Okapi#8112: F.play minecraft
+[27.7275199890136719] 2018-04-29 19:09:22,424 - ERROR - musicbot.bot | In bot.py::MainThread(4321366912), line 2863 in on_message: Error in play: CommandError: The bot is not in a voice channel.  Use F.summon to summon it to your voice channel.
+Traceback (most recent call last):
+  File "/Users/okapi/Documents/GitHub/okapi-music-bot/musicbot/bot.py", line 2762, in on_message
+    handler_kwargs['player'] = await self.get_player(message.channel)
+  File "/Users/okapi/Documents/GitHub/okapi-music-bot/musicbot/bot.py", line 578, in get_player
+    'Use %ssummon to summon it to your voice channel.' % self.config.command_prefix)
+musicbot.exceptions.CommandError: The bot is not in a voice channel.  Use F.summon to summon it to your voice channel.
+[27.8270552158355713] 2018-04-29 19:09:22,524 - WARNING - musicbot.bot | In bot.py::MainThread(4321366912), line 942 in safe_send_message: Cannot send message to "bot-spam", no permission
