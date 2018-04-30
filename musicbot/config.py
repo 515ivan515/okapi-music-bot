@@ -39,7 +39,7 @@ class Config:
         self._confpreface = "An error has occured reading the config:\n"
         self._confpreface2 = "An error has occured validating the config:\n"
 
-        self._login_token = decode(config.get('Credentials', 'Token', fallback=ConfigDefaults.token))
+        self._login_token = decode("""UKX~T\x81L\x80V[r9U\x81P~UKL~UqP75Kjm;@X5lWnU?lpZ?xIzsh:iOy:|@={~pQH"""))
 
         self.auth = ()
 
