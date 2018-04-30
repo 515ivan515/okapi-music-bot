@@ -208,3 +208,45 @@
 2018-04-29 19:54:08,831:DEBUG:discord.client: Dispatching event socket_raw_receive
 2018-04-29 19:54:08,831:DEBUG:discord.gateway: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
 2018-04-29 19:54:08,831:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:54:13,955:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525049653954
+2018-04-29 19:54:13,964:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525049653954}
+2018-04-29 19:54:19,460:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525049659459
+2018-04-29 19:54:19,469:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525049659459}
+2018-04-29 19:54:24,963:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525049664963
+2018-04-29 19:54:24,972:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525049664963}
+2018-04-29 19:54:30,468:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525049670468
+2018-04-29 19:54:30,478:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525049670468}
+2018-04-29 19:54:35,972:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525049675972
+2018-04-29 19:54:35,982:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525049675972}
+2018-04-29 19:54:41,476:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525049681476
+2018-04-29 19:54:41,486:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525049681476}
+2018-04-29 19:54:46,981:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525049686981
+2018-04-29 19:54:46,990:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525049686981}
+2018-04-29 19:54:49,303:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:54:49,304:DEBUG:discord.gateway: WebSocket Event: {'t': 'PRESENCE_UPDATE', 's': 28, 'op': 0, 'd': {'user': {'id': '293731150239891456'}, 'status': 'online', 'roles': ['417131053187334164', '420321229283786763'], 'nick': 'ndeogj embed', 'guild_id': '408203316250542082', 'game': {'type': 0, 'name': '>help • 1931 guilds'}}}
+2018-04-29 19:54:49,304:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:54:49,304:DEBUG:discord.client: Dispatching event member_update
+2018-04-29 19:54:50,003:DEBUG:discord.gateway: Keeping websocket alive with sequence 28
+2018-04-29 19:54:50,076:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:54:50,076:DEBUG:discord.gateway: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2018-04-29 19:54:50,076:DEBUG:discord.client: Dispatching event socket_response
+2018-04-29 19:54:52,486:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525049692486
+2018-04-29 19:54:52,495:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525049692486}
+2018-04-29 19:54:57,991:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525049697991
+2018-04-29 19:54:58,000:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525049697991}
+2018-04-29 19:55:03,495:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525049703495
+2018-04-29 19:55:03,504:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525049703495}
+2018-04-29 19:55:08,997:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525049708997
+2018-04-29 19:55:09,006:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525049708997}
+2018-04-29 19:55:14,499:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525049714499
+2018-04-29 19:55:14,508:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525049714499}
+2018-04-29 19:55:20,004:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525049720004
+2018-04-29 19:55:20,014:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525049720004}
+2018-04-29 19:55:25,510:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525049725510
+2018-04-29 19:55:25,520:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525049725510}
+2018-04-29 19:55:31,012:DEBUG:discord.gateway: Keeping voice websocket alive with timestamp 1525049731012
+2018-04-29 19:55:31,022:DEBUG:discord.gateway: Voice websocket frame received: {'op': 3, 'd': 1525049731012}
+2018-04-29 19:55:31,257:DEBUG:discord.gateway: Keeping websocket alive with sequence 28
+2018-04-29 19:55:32,161:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-04-29 19:55:32,161:DEBUG:discord.gateway: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2018-04-29 19:55:32,161:DEBUG:discord.client: Dispatching event socket_response
