@@ -1,48 +1,69 @@
-[77.291011810] 2018-04-29 19:08:54,774 - INFO - launcher: Starting sanity checks
-[77.964067459] 2018-04-29 19:08:54,775 - INFO - launcher: Checking for Python 3.5+
-[78.124046326] 2018-04-29 19:08:54,775 - INFO - launcher: Checking console encoding
-[78.349113464] 2018-04-29 19:08:54,775 - INFO - launcher: Ensuring we're in the right environment
-[79.487323761] 2018-04-29 19:08:54,776 - INFO - launcher: Required checks passed.
-[79.755067825] 2018-04-29 19:08:54,777 - INFO - launcher: Optional checks passed.
-[79.991102219] 2018-04-29 19:08:54,777 - INFO - launcher: Moving old musicbot log
+[63.910007477] 2018-04-29 19:44:20,478 - INFO - launcher: Starting sanity checks
+[64.289093018] 2018-04-29 19:44:20,479 - INFO - launcher: Checking for Python 3.5+
+[64.442873001] 2018-04-29 19:44:20,479 - INFO - launcher: Checking console encoding
+[64.620018005] 2018-04-29 19:44:20,479 - INFO - launcher: Ensuring we're in the right environment
+[65.490961075] 2018-04-29 19:44:20,480 - INFO - launcher: Required checks passed.
+[65.722942352] 2018-04-29 19:44:20,480 - INFO - launcher: Optional checks passed.
+[65.949916840] 2018-04-29 19:44:20,480 - INFO - launcher: Moving old musicbot log
 
 ######################### PRE-RUN SANITY CHECKS PASSED #########################
 
-[1.6119389533996582] 2018-04-29 19:08:56,309 - WARNING - musicbot.config | In config.py::MainThread(4321366912), line 112 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
-[1.6123170852661133] 2018-04-29 19:08:56,309 - INFO - musicbot.config | In config.py::MainThread(4321366912), line 123 in run_checks: Using i18n: config/i18n/en.json
-[1.6129419803619385] 2018-04-29 19:08:56,310 - WARNING - musicbot.config | In config.py::MainThread(4321366912), line 206 in create_empty_file_ifnoexist: Creating config/blacklist.txt
-[1.6135511398315430] 2018-04-29 19:08:56,310 - WARNING - musicbot.config | In config.py::MainThread(4321366912), line 206 in create_empty_file_ifnoexist: Creating config/whitelist.txt
-[1.6161191463470459] 2018-04-29 19:08:56,313 - DEBUG - musicbot.config | In config.py::MainThread(4321366912), line 291 in find_autoplaylist: Copying _autoplaylist.txt to autoplaylist.txt
-[1.6214010715484619] 2018-04-29 19:08:56,318 - DEBUG - musicbot.json | In json.py::MainThread(4321366912), line 8 in __init__: Init JSON obj with config/i18n/en.json
-[1.7597451210021973] 2018-04-29 19:08:56,457 - DEBUG - musicbot.bot | In bot.py::MainThread(4321366912), line 227 in _setup_logging: Set logging level to EVERYTHING
-[1.7606341838836670] 2018-04-29 19:08:56,457 - INFO - musicbot.bot | In bot.py::MainThread(4321366912), line 84 in __init__: Starting MusicBot 1.9.7
-[1.7608952522277832] 2018-04-29 19:08:56,458 - INFO - musicbot.bot | In bot.py::MainThread(4321366912), line 90 in __init__: Loaded autoplaylist with 2531 entries
-[2.3424501419067383] 2018-04-29 19:08:57,039 - DEBUG - musicbot.spotify | In spotify.py::MainThread(4321366912), line 70 in get_token: Created a new access token: {'access_token': 'BQBGgcXF_dJk3SS9kYDpLY8POR-PFKC2J-0kUmz2W6Zw8ktED8FIDtVf11OEgdSLIIMxGmVPQhLKt5tScMM', 'token_type': 'Bearer', 'expires_in': 3600, 'scope': '', 'expires_at': 1525050537}
-[2.3429510593414307] 2018-04-29 19:08:57,040 - INFO - musicbot.bot | In bot.py::MainThread(4321366912), line 115 in __init__: Authenticated with Spotify successfully using client ID and secret.
-[5.9209189414978027] 2018-04-29 19:09:00,618 - DEBUG - musicbot.bot | In bot.py::MainThread(4321366912), line 1074 in on_ready: Connection established, ready to go.
-[5.9212660789489746] 2018-04-29 19:09:00,618 - DEBUG - musicbot.bot | In bot.py::MainThread(4321366912), line 339 in _cache_app_info: Caching app info
-[6.0007500648498535] 2018-04-29 19:09:00,698 - DEBUG - musicbot.bot | In bot.py::MainThread(4321366912), line 889 in _scheck_ensure_env: Ensuring data folders exist
-[6.0019559860229492] 2018-04-29 19:09:00,699 - DEBUG - musicbot.bot | In bot.py::MainThread(4321366912), line 905 in _scheck_server_permissions: Checking server permissions
-[6.0022220611572266] 2018-04-29 19:09:00,699 - DEBUG - musicbot.bot | In bot.py::MainThread(4321366912), line 909 in _scheck_autoplaylist: Auditing autoplaylist
-[6.0025441646575928] 2018-04-29 19:09:00,699 - DEBUG - musicbot.bot | In bot.py::MainThread(4321366912), line 913 in _scheck_configs: Validating config
-[6.0028142929077148] 2018-04-29 19:09:00,700 - DEBUG - musicbot.config | In config.py::MainThread(4321366912), line 212 in async_validate: Validating options...
-[6.0031111240386963] 2018-04-29 19:09:00,700 - DEBUG - musicbot.config | In config.py::MainThread(4321366912), line 226 in async_validate: Acquired owner id via API
-[6.0034182071685791] 2018-04-29 19:09:00,700 - DEBUG - musicbot.bot | In bot.py::MainThread(4321366912), line 916 in _scheck_configs: Validating permissions config
-[6.0037112236022949] 2018-04-29 19:09:00,700 - DEBUG - musicbot.permissions | In permissions.py::MainThread(4321366912), line 64 in async_validate: Validating permissions...
-[6.0039632320404053] 2018-04-29 19:09:00,701 - DEBUG - musicbot.permissions | In permissions.py::MainThread(4321366912), line 68 in async_validate: Fixing automatic owner group
-[6.0042240619659424] 2018-04-29 19:09:00,701 - INFO - musicbot.bot | In bot.py::MainThread(4321366912), line 1091 in on_ready: Connected: 440299421104734228/okapi-music#2233
-[6.0045249462127686] 2018-04-29 19:09:00,701 - INFO - musicbot.bot | In bot.py::MainThread(4321366912), line 1099 in on_ready: Owner:     236614912284033024/Just An Okapi#8112
+[1.4998018741607666] 2018-04-29 19:44:21,914 - WARNING - musicbot.config | In config.py::MainThread(4321366912), line 112 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[1.5000531673431396] 2018-04-29 19:44:21,914 - INFO - musicbot.config | In config.py::MainThread(4321366912), line 123 in run_checks: Using i18n: config/i18n/en.json
+[1.5027778148651123] 2018-04-29 19:44:21,917 - DEBUG - musicbot.json | In json.py::MainThread(4321366912), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[1.6065230369567871] 2018-04-29 19:44:22,021 - DEBUG - musicbot.bot | In bot.py::MainThread(4321366912), line 227 in _setup_logging: Set logging level to EVERYTHING
+[1.6098399162292480] 2018-04-29 19:44:22,024 - INFO - musicbot.bot | In bot.py::MainThread(4321366912), line 84 in __init__: Starting MusicBot 1.9.7
+[1.6101219654083252] 2018-04-29 19:44:22,024 - INFO - musicbot.bot | In bot.py::MainThread(4321366912), line 90 in __init__: Loaded autoplaylist with 2531 entries
+[2.1577041149139404] 2018-04-29 19:44:22,572 - DEBUG - musicbot.spotify | In spotify.py::MainThread(4321366912), line 70 in get_token: Created a new access token: {'access_token': 'BQCn0R6Pgei_Du0GXkfB1ea9fVXTyoypSH-TtcIkpszQyHW4wcD5sesKT7gFRW271eDQDfZ5kOWgQ8yB7Nk', 'token_type': 'Bearer', 'expires_in': 3600, 'scope': '', 'expires_at': 1525052662}
+[2.1584348678588867] 2018-04-29 19:44:22,573 - INFO - musicbot.bot | In bot.py::MainThread(4321366912), line 115 in __init__: Authenticated with Spotify successfully using client ID and secret.
+[4.5445320606231689] 2018-04-29 19:44:24,959 - DEBUG - musicbot.bot | In bot.py::MainThread(4321366912), line 1074 in on_ready: Connection established, ready to go.
+[4.5448038578033447] 2018-04-29 19:44:24,959 - DEBUG - musicbot.bot | In bot.py::MainThread(4321366912), line 339 in _cache_app_info: Caching app info
+[4.6027531623840332] 2018-04-29 19:44:25,017 - DEBUG - musicbot.bot | In bot.py::MainThread(4321366912), line 889 in _scheck_ensure_env: Ensuring data folders exist
+[4.6037089824676514] 2018-04-29 19:44:25,018 - DEBUG - musicbot.bot | In bot.py::MainThread(4321366912), line 905 in _scheck_server_permissions: Checking server permissions
+[4.6039309501647949] 2018-04-29 19:44:25,018 - DEBUG - musicbot.bot | In bot.py::MainThread(4321366912), line 909 in _scheck_autoplaylist: Auditing autoplaylist
+[4.6041629314422607] 2018-04-29 19:44:25,018 - DEBUG - musicbot.bot | In bot.py::MainThread(4321366912), line 913 in _scheck_configs: Validating config
+[4.6044120788574219] 2018-04-29 19:44:25,019 - DEBUG - musicbot.config | In config.py::MainThread(4321366912), line 212 in async_validate: Validating options...
+[4.6046719551086426] 2018-04-29 19:44:25,019 - DEBUG - musicbot.config | In config.py::MainThread(4321366912), line 226 in async_validate: Acquired owner id via API
+[4.6049139499664307] 2018-04-29 19:44:25,019 - DEBUG - musicbot.bot | In bot.py::MainThread(4321366912), line 916 in _scheck_configs: Validating permissions config
+[4.6051249504089355] 2018-04-29 19:44:25,019 - DEBUG - musicbot.permissions | In permissions.py::MainThread(4321366912), line 64 in async_validate: Validating permissions...
+[4.6053588390350342] 2018-04-29 19:44:25,020 - DEBUG - musicbot.permissions | In permissions.py::MainThread(4321366912), line 68 in async_validate: Fixing automatic owner group
+[4.6056149005889893] 2018-04-29 19:44:25,020 - INFO - musicbot.bot | In bot.py::MainThread(4321366912), line 1091 in on_ready: Connected: 440299421104734228/okapi-music#2233
+[4.6058869361877441] 2018-04-29 19:44:25,020 - INFO - musicbot.bot | In bot.py::MainThread(4321366912), line 1099 in on_ready: Owner:     236614912284033024/Just An Okapi#8112
 
-[6.0047390460968018] 2018-04-29 19:09:00,702 - INFO - musicbot.bot | In bot.py::MainThread(4321366912), line 1102 in on_ready: Server List:
-[6.0049691200256348] 2018-04-29 19:09:00,702 - INFO - musicbot.bot | In bot.py::MainThread(4321366912), line 1105 in on_ready:  - NDEogJ
-[6.0052158832550049] 2018-04-29 19:09:00,702 - INFO - musicbot.bot | In bot.py::MainThread(4321366912), line 1151 in on_ready: Not bound to any text channels
-[6.0055100917816162] 2018-04-29 19:09:00,702 - INFO - musicbot.bot | In bot.py::MainThread(4321366912), line 1177 in on_ready: Not autojoining any voice channels
-[27.7269029617309570] 2018-04-29 19:09:22,424 - INFO - musicbot.bot | In bot.py::MainThread(4321366912), line 2734 in on_message: 236614912284033024/Just An Okapi#8112: F.play minecraft
-[27.7275199890136719] 2018-04-29 19:09:22,424 - ERROR - musicbot.bot | In bot.py::MainThread(4321366912), line 2863 in on_message: Error in play: CommandError: The bot is not in a voice channel.  Use F.summon to summon it to your voice channel.
-Traceback (most recent call last):
-  File "/Users/okapi/Documents/GitHub/okapi-music-bot/musicbot/bot.py", line 2762, in on_message
-    handler_kwargs['player'] = await self.get_player(message.channel)
-  File "/Users/okapi/Documents/GitHub/okapi-music-bot/musicbot/bot.py", line 578, in get_player
-    'Use %ssummon to summon it to your voice channel.' % self.config.command_prefix)
-musicbot.exceptions.CommandError: The bot is not in a voice channel.  Use F.summon to summon it to your voice channel.
-[27.8270552158355713] 2018-04-29 19:09:22,524 - WARNING - musicbot.bot | In bot.py::MainThread(4321366912), line 942 in safe_send_message: Cannot send message to "bot-spam", no permission
+[4.6060822010040283] 2018-04-29 19:44:25,020 - INFO - musicbot.bot | In bot.py::MainThread(4321366912), line 1102 in on_ready: Server List:
+[4.6062769889831543] 2018-04-29 19:44:25,021 - INFO - musicbot.bot | In bot.py::MainThread(4321366912), line 1105 in on_ready:  - NDEogJ
+[4.6064970493316650] 2018-04-29 19:44:25,021 - INFO - musicbot.bot | In bot.py::MainThread(4321366912), line 1151 in on_ready: Not bound to any text channels
+[4.6067399978637695] 2018-04-29 19:44:25,021 - INFO - musicbot.bot | In bot.py::MainThread(4321366912), line 1177 in on_ready: Not autojoining any voice channels
+[4.6070840358734131] 2018-04-29 19:44:25,021 - INFO - musicbot.bot | In bot.py::MainThread(4321366912), line 266 in _join_startup_channels: Found resumable voice channel NDEogJ/Music
+[4.6072940826416016] 2018-04-29 19:44:25,022 - INFO - musicbot.bot | In bot.py::MainThread(4321366912), line 272 in _join_startup_channels: Found owner in "Music"
+[4.6075060367584229] 2018-04-29 19:44:25,022 - INFO - musicbot.bot | In bot.py::MainThread(4321366912), line 281 in _join_startup_channels: Attempting to join NDEogJ/Music
+[4.6077709197998047] 2018-04-29 19:44:25,022 - DEBUG - musicbot.bot | In bot.py::MainThread(4321366912), line 452 in get_voice_client: Connection attempt 1 to Music
+[4.6079540252685547] 2018-04-29 19:44:25,022 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4321366912), line 391 in join_voice_channel: (join_voice_channel) creating futures
+[4.6083600521087646] 2018-04-29 19:44:25,023 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4321366912), line 397 in join_voice_channel: (join_voice_channel) setting voice state
+[4.6088168621063232] 2018-04-29 19:44:25,023 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4321366912), line 400 in join_voice_channel: (join_voice_channel) waiting for session id
+[4.6788759231567383] 2018-04-29 19:44:25,093 - DEBUG - musicbot.bot | In bot.py::MainThread(4321366912), line 2926 in on_voice_state_update: Resumed voice connection to NDEogJ/Music
+[4.6798729896545410] 2018-04-29 19:44:25,094 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4321366912), line 2938 in on_voice_state_update: Voice state update for 440299421104734228/okapi-music#2233 on NDEogJ/Music -> [RESUME, CONNECT]
+[4.6805529594421387] 2018-04-29 19:44:25,095 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4321366912), line 404 in join_voice_channel: (join_voice_channel) waiting for voice data
+[4.7116470336914062] 2018-04-29 19:44:25,126 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4321366912), line 418 in join_voice_channel: (join_voice_channel) connecting...
+[4.7925851345062256] 2018-04-29 19:44:25,207 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4321366912), line 430 in join_voice_channel: (join_voice_channel) connection successful
+[4.7929060459136963] 2018-04-29 19:44:25,207 - DEBUG - musicbot.bot | In bot.py::MainThread(4321366912), line 478 in get_voice_client: Connected in 0.2s
+[4.7932088375091553] 2018-04-29 19:44:25,208 - INFO - musicbot.bot | In bot.py::MainThread(4321366912), line 479 in get_voice_client: Connected to NDEogJ/Music
+[4.7936677932739258] 2018-04-29 19:44:25,208 - DEBUG - musicbot.bot | In bot.py::MainThread(4321366912), line 849 in deserialize_queue: Deserializing queue for 408203316250542082
+[5.2229509353637695] 2018-04-29 19:44:25,637 - DEBUG - musicbot.bot | In bot.py::MainThread(4321366912), line 570 in get_player: Created player via deserialization for server 408203316250542082 with 93 entries
+[5.2232789993286133] 2018-04-29 19:44:25,638 - INFO - musicbot.bot | In bot.py::MainThread(4321366912), line 297 in _join_startup_channels: Joined NDEogJ/Music
+[5.2237079143524170] 2018-04-29 19:44:25,638 - VOICEDEBUG - musicbot.player | In player.py::MainThread(4321366912), line 373 in websocket_check: Starting websocket check loop for NDEogJ
+[5.2242150306701660] 2018-04-29 19:44:25,639 - DEBUG - musicbot.entry | In entry.py::MainThread(4321366912), line 54 in get_ready_future: Created future for audio_cache/youtube-DQoh3nEu1PQ-PrototypeRaptor_-_Wicked.webm
+[5.2244160175323486] 2018-04-29 19:44:25,639 - DEBUG - musicbot.entry | In entry.py::MainThread(4321366912), line 54 in get_ready_future: Created future for audio_cache/youtube-8Lkr3Y6sFmQ-PrototypeRaptor_-_Northern_Lights.webm
+[5.2246611118316650] 2018-04-29 19:44:25,639 - FFMPEG - musicbot.player | In player.py::MainThread(4321366912), line 330 in _play: Creating player with options: -nostdin -vn audio_cache/youtube-8Lkr3Y6sFmQ-PrototypeRaptor_-_Northern_Lights.webm
+[5.2403810024261475] 2018-04-29 19:44:25,655 - DEBUG - musicbot.bot | In bot.py::MainThread(4321366912), line 825 in serialize_queue: Serializing queue for 408203316250542082
+[12.3829569816589355] 2018-04-29 19:44:32,797 - INFO - musicbot.bot | In bot.py::MainThread(4321366912), line 2734 in on_message: 236614912284033024/Just An Okapi#8112: F.help
+[28.2915339469909668] 2018-04-29 19:44:48,706 - INFO - musicbot.bot | In bot.py::MainThread(4321366912), line 2734 in on_message: 236614912284033024/Just An Okapi#8112: F.help all
+[307.9812109470367432] 2018-04-29 19:49:28,396 - DEBUG - musicbot.entry | In entry.py::MainThread(4321366912), line 54 in get_ready_future: Created future for None
+[307.9828820228576660] 2018-04-29 19:49:28,397 - DEBUG - musicbot.entry | In entry.py::MainThread(4321366912), line 54 in get_ready_future: Created future for audio_cache/youtube-DQoh3nEu1PQ-PrototypeRaptor_-_Wicked.webm
+[307.9831609725952148] 2018-04-29 19:49:28,397 - FFMPEG - musicbot.player | In player.py::MainThread(4321366912), line 330 in _play: Creating player with options: -nostdin -vn audio_cache/youtube-DQoh3nEu1PQ-PrototypeRaptor_-_Wicked.webm
+[307.9982481002807617] 2018-04-29 19:49:28,413 - DEBUG - musicbot.bot | In bot.py::MainThread(4321366912), line 825 in serialize_queue: Serializing queue for 408203316250542082
+[308.0049040317535400] 2018-04-29 19:49:28,419 - INFO - musicbot.entry | In entry.py::MainThread(4321366912), line 220 in _really_download: Download started: https://www.youtube.com/watch?v=vHmu6JUGqr8
+[308.0337071418762207] 2018-04-29 19:49:28,448 - DEBUG - musicbot.bot | In bot.py::MainThread(4321366912), line 825 in serialize_queue: Serializing queue for 408203316250542082
+[310.0521919727325439] 2018-04-29 19:49:30,467 - INFO - musicbot.entry | In entry.py::MainThread(4321366912), line 230 in _really_download: Download complete: https://www.youtube.com/watch?v=vHmu6JUGqr8
+[366.6086149215698242] 2018-04-29 19:50:27,023 - INFO - musicbot.bot | In bot.py::MainThread(4321366912), line 3029 in on_server_remove: Bot has been removed from server: NDEogJ
+[366.6096611022949219] 2018-04-29 19:50:27,024 - DEBUG - musicbot.bot | In bot.py::MainThread(4321366912), line 3030 in on_server_remove: Updated server list:

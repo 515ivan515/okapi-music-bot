@@ -54,7 +54,7 @@ class MusicBot(discord.Client):
             sys.stdout.write("\x1b]2;MusicBot {}\x07".format(BOTVERSION))
         except:
             pass
-        
+
         print()
 
         if config_file is None:
@@ -304,7 +304,7 @@ class MusicBot(discord.Client):
                             player.once('play', lambda player, **_: _autopause(player))
                         if not player.playlist.entries:
                             await self.on_player_finished_playing(player)
-                
+
                 except Exception:
                     log.debug("Error joining {0.server.name}/{0.name}".format(channel), exc_info=True)
                     log.error("Failed to join {0.server.name}/{0.name}".format(channel))
@@ -629,9 +629,9 @@ class MusicBot(discord.Client):
                         self.server_specific_data[channel.server]['last_np_msg'] = None
                     break  # This is probably redundant
 
-            
+
             author_perms = self.permissions.for_user(author)
-            
+
             if author not in player.voice_client.channel.voice_members and author_perms.skip_when_absent:
                 newmsg = 'Skipping next song in `%s`: `%s` added by `%s` as queuer not in voice' % (
                     player.voice_client.channel.name, entry.title, entry.meta['author'].name)
@@ -667,8 +667,8 @@ class MusicBot(discord.Client):
 
                 player.pause()
                 self.server_specific_data[player.voice_client.channel.server]['auto_paused'] = True
-        
-        
+
+
         if not player.playlist.entries and not player.current_entry and self.config.auto_playlist:
             if not player.autoplaylist:
                 if not self.autoplaylist:
@@ -716,7 +716,7 @@ class MusicBot(discord.Client):
 
                 # Do I check the initial conditions again?
                 # not (not player.playlist.entries and not player.current_entry and self.config.auto_playlist)
-                
+
                 if self.config.auto_pause:
                     player.once('play', lambda player, **_: _autopause(player))
 
@@ -1176,7 +1176,7 @@ class MusicBot(discord.Client):
         else:
             log.info("Not autojoining any voice channels")
             autojoin_channels = set()
-        
+
         if self.config.show_config_at_start:
             print(flush=True)
             log.info("Options:")
@@ -1223,8 +1223,7 @@ class MusicBot(discord.Client):
         """Provides a basic template for embeds"""
         e = discord.Embed()
         e.colour = 7506394
-        e.set_footer(text='Just-Some-Bots/MusicBot ({})'.format(BOTVERSION), icon_url='https://i.imgur.com/gFHBoZA.png')
-        e.set_author(name=self.user.name, url='https://github.com/Just-Some-Bots/MusicBot', icon_url=self.user.avatar_url)
+        e.set_footer(text='Okapi Music By @Just An Okapi#8112', icon_url='https://orig02.deviantart.net/d6e5/f/2013/184/5/6/56c80607908d203f4b516480701586af-d6bsxy5.png')
         return e
 
     async def cmd_resetplaylist(self, player, channel):
@@ -2616,11 +2615,11 @@ class MusicBot(discord.Client):
 
     async def cmd_shutdown(self, channel):
         await self.safe_send_message(channel, "\N{WAVING HAND SIGN}")
-        
+
         player = self.get_player_in(channel.server)
         if player and player.is_paused:
             player.resume()
-        
+
         await self.disconnect_all_voice_clients()
         raise exceptions.TerminateSignal()
 
@@ -2989,7 +2988,7 @@ class MusicBot(discord.Client):
 
                     self.server_specific_data[after.server]['auto_paused'] = True
                     player.pause()
-        else: 
+        else:
             if not state.empty():
                 if auto_paused and player.is_paused:
                     log.info(autopause_msg.format(
@@ -2997,7 +2996,7 @@ class MusicBot(discord.Client):
                         channel = state.my_voice_channel,
                         reason = ""
                     ).strip())
- 
+
                     self.server_specific_data[after.server]['auto_paused'] = False
                     player.resume()
 
